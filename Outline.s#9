@@ -3658,9 +3658,11 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="110.998" y1="96.52" x2="97.79" y2="96.52" width="0.1524" layer="91"/>
 <label x="95.25" y="97.028" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="OC0A/SDA/PE0"/>
-<wire x1="90.678" y1="94.234" x2="97.79" y2="94.234" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="94.234" x2="97.79" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="XCK1/MOSI/PD5"/>
+<wire x1="90.678" y1="106.934" x2="106.68" y2="106.934" width="0.1524" layer="91"/>
+<label x="90.678" y="107.188" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

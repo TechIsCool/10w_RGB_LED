@@ -3447,7 +3447,7 @@ DIN A4, landscape with extra doc field</description>
 <junction x="21.844" y="124.714"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="RX/TX_DATA_P" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RO"/>
 <wire x1="137.414" y1="89.154" x2="137.414" y2="72.39" width="0.1524" layer="91"/>
@@ -3459,7 +3459,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="15.748" y="76.708" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="RX/TX_DATA_N" class="0">
 <segment>
 <wire x1="127.254" y1="86.614" x2="127.254" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="DE"/>

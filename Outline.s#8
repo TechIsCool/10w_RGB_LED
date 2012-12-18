@@ -2906,7 +2906,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="GND21" gate="1" x="110.998" y="106.68"/>
 <instance part="JP1" gate="1" x="190.246" y="66.04" rot="MR180"/>
 <instance part="P+8" gate="1" x="183.642" y="68.58" rot="MR270"/>
-<instance part="P+9" gate="1" x="121.158" y="91.694" rot="R180"/>
+<instance part="P+9" gate="1" x="121.158" y="90.424" rot="R180"/>
 <instance part="PDI" gate="G$1" x="14.986" y="86.868" rot="R90"/>
 <instance part="GND22" gate="1" x="9.906" y="109.728" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="4.826" y="109.728"/>
@@ -2932,8 +2932,8 @@ DIN A4, landscape with extra doc field</description>
 <instance part="J2" gate="G$3" x="116.84" y="167.64"/>
 <instance part="J2" gate="G$4" x="116.84" y="165.1"/>
 <instance part="R14" gate="G$1" x="116.078" y="96.52" rot="MR0"/>
-<instance part="R15" gate="G$1" x="110.998" y="91.44" rot="MR270"/>
-<instance part="GND24" gate="1" x="110.998" y="83.82"/>
+<instance part="R15" gate="G$1" x="109.22" y="91.44" rot="MR270"/>
+<instance part="GND24" gate="1" x="109.22" y="81.534"/>
 </instances>
 <busses>
 </busses>
@@ -3239,6 +3239,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="109.22" y1="84.074" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -3431,7 +3432,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="P+9" gate="1" pin="+5V"/>
 <wire x1="121.158" y1="107.95" x2="121.158" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="121.158" y1="96.52" x2="121.158" y2="94.234" width="0.1524" layer="91"/>
+<wire x1="121.158" y1="96.52" x2="121.158" y2="92.964" width="0.1524" layer="91"/>
 <junction x="121.158" y="96.52"/>
 </segment>
 </net>
@@ -3656,8 +3657,10 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="110.998" y1="96.52" x2="97.79" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="96.52" x2="97.79" y2="96.52" width="0.1524" layer="91"/>
 <label x="95.25" y="97.028" size="1.778" layer="95"/>
+<wire x1="109.22" y1="96.52" x2="110.998" y2="96.52" width="0.1524" layer="91"/>
+<junction x="109.22" y="96.52"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="XCK1/MOSI/PD5"/>

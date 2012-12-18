@@ -9,43 +9,43 @@
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -58,45 +58,45 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -107,7 +107,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -814,22 +814,22 @@ The standard DRC for hackvana.com</description>
 <attribute name="NAME" x="30.406821875" y="43.2998875" size="0.8128" layer="21" ratio="5" rot="R45"/>
 </element>
 <element name="R2" library="nonolith" package="0603" value="102k Ohm" x="14.986" y="45.974" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.351" y="43.434" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="14.351" y="43.434" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R3" library="nonolith" package="0603" value="62k Ohm" x="17.272" y="45.974" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.637" y="43.434" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="16.637" y="43.434" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R4" library="nonolith" package="0603" value="102k Ohm" x="45.1358" y="12.827" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.847" y="11.0998" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="45.847" y="11.0998" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R5" library="nonolith" package="0603" value="11.8k Ohm" x="42.926" y="12.827" smashed="yes" rot="R90">
-<attribute name="NAME" x="43.688" y="11.049" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="43.688" y="11.049" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value=".1uF" x="30.768115625" y="47.499809375" smashed="yes" rot="R225">
-<attribute name="NAME" x="32.697546875" y="49.875609375" size="0.8128" layer="25" font="vector" rot="R225"/>
+<attribute name="NAME" x="32.697546875" y="49.875609375" size="0.8128" layer="25" rot="R225"/>
 </element>
 <element name="Q1" library="dp_devices" package="SOT-23" value="BC817-16" x="39.783" y="12.8178" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.1548" y="14.5095" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="42.1548" y="14.5095" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C2" library="SparkFun" package="1210" value="10uF" x="49.4784" y="12.3976" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.1514" y="14.8186" size="0.8128" layer="25" rot="R180"/>
@@ -850,47 +850,59 @@ The standard DRC for hackvana.com</description>
 <attribute name="NAME" x="45.948" y="24.3204" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R6" library="nonolith" package="0603" value="1k Ohm" x="39.4838" y="17.6274" smashed="yes" rot="R180">
-<attribute name="NAME" x="37.8328" y="18.0084" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="37.8328" y="18.0084" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R7" library="nonolith" package="0603" value="1k Ohm" x="39.4046" y="15.4466" smashed="yes" rot="R180">
-<attribute name="NAME" x="37.7536" y="15.8276" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="37.7536" y="15.8276" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C6" library="SparkFun" package="0603-CAP" value=".1uF" x="37.234596875" y="35.00300625" smashed="yes" rot="R315">
-<attribute name="NAME" x="34.73179375" y="36.8054375" size="0.8128" layer="25" font="vector" rot="R315"/>
+<attribute name="NAME" x="34.73179375" y="36.8054375" size="0.8128" layer="25" rot="R315"/>
 </element>
 <element name="C7" library="SparkFun" package="0603-CAP" value=".1uF" x="47.0511" y="40.4558125" smashed="yes">
-<attribute name="NAME" x="48.729178125" y="40.065784375" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="48.729178125" y="40.065784375" size="0.8128" layer="25"/>
 </element>
-<element name="DRV0" library="1dah" package="SOT89-5" value="PT4115" x="7.112" y="34.544"/>
+<element name="DRV0" library="1dah" package="SOT89-5" value="PT4115" x="7.112" y="34.544">
+<attribute name="DRV0" x="4.699" y="33.782" size="0.4064" layer="25" rot="R90" display="name"/>
+</element>
 <element name="IND1" library="TechIsCool" package="CR54" value="68uH 760mA" x="7.874" y="30.988" smashed="yes" rot="R180">
 <attribute name="NAME" x="1.245" y="31.365" size="0.8128" layer="25"/>
 </element>
 <element name="C8" library="SparkFun" package="PANASONIC_C" value="10uF" x="6.35" y="42.926" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.05" y="45.526" size="0.8128" layer="25" rot="R270"/>
 </element>
-<element name="SC_D" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="1.778" y="33.02"/>
-<element name="R1" library="nonolith" package="0805" value="300m Ohm" x="7.366" y="38.608" smashed="yes">
-<attribute name="NAME" x="5.461" y="38.862" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<element name="SC_D" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="1.778" y="33.02">
+<attribute name="SC0" x="1.27" y="34.036" size="0.4064" layer="25" rot="R90" display="name"/>
 </element>
-<element name="DRV1" library="1dah" package="SOT89-5" value="PT4115" x="3.81" y="12.446" rot="R180"/>
+<element name="R1" library="nonolith" package="0805" value="300m Ohm" x="7.366" y="38.608" smashed="yes">
+<attribute name="NAME" x="5.461" y="38.989" size="0.8128" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="DRV1" library="1dah" package="SOT89-5" value="PT4115" x="3.81" y="12.446" rot="R180">
+<attribute name="DRV1" x="1.016" y="13.208" size="0.4064" layer="25" rot="R270" display="name"/>
+</element>
 <element name="IND2" library="TechIsCool" package="CR54" value="68uH 760mA" x="1.778" y="17.526" smashed="yes">
 <attribute name="NAME" x="1.372" y="23.618" size="0.8128" layer="25"/>
 </element>
 <element name="C10" library="SparkFun" package="PANASONIC_C" value="10uF" x="4.826" y="4.064" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.126" y="1.464" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="SC_D1" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="9.144" y="13.97" rot="R180"/>
+<element name="SC_D1" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="9.144" y="13.97" rot="R180">
+<attribute name="SC1" x="6.223" y="13.081" size="0.4064" layer="25" font="vector" rot="R270" display="name"/>
+</element>
 <element name="R8" library="nonolith" package="0805" value="300m Ohm" x="3.81" y="8.382" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.842" y="7.493" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
-<element name="DRV2" library="1dah" package="SOT89-5" value="PT4115" x="12.446" y="12.446" rot="R180"/>
+<element name="DRV2" library="1dah" package="SOT89-5" value="PT4115" x="12.446" y="12.446" rot="R180">
+<attribute name="DRV2" x="9.652" y="13.208" size="0.4064" layer="25" font="vector" rot="R270" display="name"/>
+</element>
 <element name="IND3" library="TechIsCool" package="CR54" value="68uH 760mA" x="8.89" y="16.002" smashed="yes">
 <attribute name="NAME" x="8.738" y="21.967" size="0.8128" layer="25"/>
 </element>
 <element name="C12" library="SparkFun" package="PANASONIC_C" value="10uF" x="12.954" y="4.064" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.254" y="1.464" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="SC_D2" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="17.78" y="13.97" rot="R180"/>
+<element name="SC_D2" library="TechIsCool" package="SOT-457" value="1PS74SB23" x="17.78" y="13.97" rot="R180">
+<attribute name="SC2" x="14.859" y="13.081" size="0.4064" layer="25" font="vector" rot="R270" display="name"/>
+</element>
 <element name="R9" library="nonolith" package="0805" value="300 mOhm" x="12.192" y="8.382" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.224" y="7.493" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
@@ -912,35 +924,35 @@ The standard DRC for hackvana.com</description>
 <attribute name="NAME" x="49.026134375" y="52.177234375" size="0.8128" layer="25"/>
 </element>
 <element name="R10" library="nonolith" package="0603" value="10k Ohm" x="50.546" y="41.90999375" smashed="yes">
-<attribute name="NAME" x="48.895" y="42.29100625" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="48.895" y="42.29100625" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R11" library="nonolith" package="0603" value="1k Ohm" x="50.54599375" y="43.434" smashed="yes">
-<attribute name="NAME" x="46.73599375" y="43.053" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="46.73599375" y="43.053" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R12" library="nonolith" package="0603" value="10k Ohm" x="46.30728125" y="50.950375" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.347625" y="49.22828125" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="47.347625" y="49.22828125" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C14" library="SparkFun" package="0603-CAP" value=".1uF" x="43.467365625" y="50.51263125" smashed="yes" rot="R135">
-<attribute name="NAME" x="45.208165625" y="51.377196875" size="0.8128" layer="25" font="vector" rot="R135"/>
+<attribute name="NAME" x="45.208165625" y="51.377196875" size="0.8128" layer="25" rot="R135"/>
 </element>
 <element name="U$6" library="TechIsCool" package="10W_RGB_LED" value="10W_RGB_LED" x="26.924" y="26.924" locked="yes" smashed="yes">
 <attribute name="NAME" x="25.248" y="24.042" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="20.676" y="26.266" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="U$2" library="TechIsCool" package="TOP-92-INLINE" value="DS18B20" x="17.9442" y="40.1692" smashed="yes" rot="MR315">
-<attribute name="VALUE" x="17.6131625" y="43.884109375" size="0.8128" layer="28" ratio="10" rot="MR315"/>
+<attribute name="VALUE" x="17.6131625" y="43.884109375" size="0.8128" layer="26" font="vector" ratio="10" rot="MR315"/>
 </element>
 <element name="R13" library="nonolith" package="0603" value="4.7k Ohm" x="19.51441875" y="38.607996875" smashed="yes" rot="R225">
-<attribute name="NAME" x="22.2467875" y="41.743153125" size="0.8128" layer="25" font="vector" ratio="10" rot="R225"/>
+<attribute name="NAME" x="22.2467875" y="41.743153125" size="0.8128" layer="25" ratio="10" rot="R225"/>
 </element>
 <element name="J2" library="TechIsCool" package="47053-1000" value="J2" x="39.116" y="6.35" smashed="yes">
-<attribute name="NAME" x="49.911" y="3.752" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="49.911" y="3.752" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R14" library="nonolith" package="0603" value="11.8k" x="41.783" y="32.7152" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.6212" y="33.401" size="0.762" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="42.6212" y="33.401" size="0.762" layer="25" ratio="10"/>
 </element>
 <element name="R15" library="nonolith" package="0603" value="10k" x="40.894" y="35.306" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.672" y="34.925" size="0.762" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="42.545" y="34.925" size="0.762" layer="25" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -1057,11 +1069,11 @@ The standard DRC for hackvana.com</description>
 <wire x1="5.588" y1="48.26" x2="6.35" y2="48.26" width="0.6096" layer="1"/>
 <wire x1="6.35" y1="48.26" x2="7.366" y2="49.276" width="0.6096" layer="1"/>
 <via x="38.608" y="49.276" extent="1-16" drill="0.6096" diameter="0.8128"/>
-<wire x1="18.288" y1="49.276" x2="38.608" y2="49.276" width="0.6096" layer="16"/>
+<wire x1="18.288" y1="49.276" x2="38.608" y2="49.276" width="0.8128" layer="16"/>
 <wire x1="38.608" y1="49.276" x2="38.862" y2="49.022" width="0.6096" layer="1"/>
 <via x="19.304" y="51.054" extent="1-16" drill="0.6096" diameter="0.8128"/>
-<wire x1="19.304" y1="51.054" x2="19.304" y2="50.292" width="0.6096" layer="16"/>
-<wire x1="19.304" y1="50.292" x2="18.288" y2="49.276" width="0.6096" layer="16"/>
+<wire x1="19.304" y1="51.054" x2="19.304" y2="50.292" width="0.8128" layer="16"/>
+<wire x1="19.304" y1="50.292" x2="18.288" y2="49.276" width="0.8128" layer="16"/>
 <wire x1="21.463" y1="50.0634" x2="20.4724" y2="51.054" width="0.4064" layer="1"/>
 <wire x1="20.4724" y1="51.054" x2="19.304" y2="51.054" width="0.4064" layer="1"/>
 <wire x1="46.30728125" y1="51.800375" x2="46.83090625" y2="52.324" width="0.4064" layer="1"/>
@@ -1103,12 +1115,23 @@ The standard DRC for hackvana.com</description>
 <wire x1="46.736" y1="41.402" x2="48.006" y2="41.402" width="0.4064" layer="1"/>
 <wire x1="48.006" y1="41.402" x2="48.51399375" y2="41.90999375" width="0.4064" layer="1"/>
 <wire x1="48.51399375" y1="41.90999375" x2="49.696" y2="41.90999375" width="0.4064" layer="1"/>
-<wire x1="18.288" y1="49.276" x2="12.192" y2="49.276" width="0.6096" layer="16"/>
-<wire x1="12.192" y1="49.276" x2="11.684" y2="49.657" width="0.6096" layer="16"/>
-<via x="11.684" y="49.657" extent="1-16" drill="0.6096" diameter="0.8128"/>
+<wire x1="18.288" y1="49.276" x2="7.112" y2="49.276" width="0.8128" layer="16"/>
 <wire x1="4.986" y1="49.784" x2="4.732" y2="49.53" width="0.6096" layer="1"/>
-<wire x1="11.684" y1="49.657" x2="4.859" y2="49.657" width="0.6096" layer="1"/>
 <wire x1="4.859" y1="49.657" x2="4.732" y2="49.53" width="0.6096" layer="1"/>
+<polygon width="0.4064" layer="16">
+<vertex x="0" y="53.848"/>
+<vertex x="9.398" y="53.848"/>
+<vertex x="9.398" y="45.974"/>
+<vertex x="0" y="45.974"/>
+</polygon>
+<via x="4.699" y="51.816" extent="1-16" drill="0.6"/>
+<via x="7.112" y="51.816" extent="1-16" drill="0.6"/>
+<via x="7.112" y="47.244" extent="1-16" drill="0.6"/>
+<via x="4.699" y="47.244" extent="1-16" drill="0.6"/>
+<wire x1="7.112" y1="49.276" x2="7.112" y2="49.53" width="0.6096" layer="16"/>
+<via x="2.286" y="47.244" extent="1-16" drill="0.6"/>
+<via x="2.286" y="51.816" extent="1-16" drill="0.6"/>
+<wire x1="7.112" y1="49.276" x2="7.366" y2="49.276" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
@@ -1147,12 +1170,11 @@ The standard DRC for hackvana.com</description>
 <contactref element="C12" pad="-"/>
 <contactref element="PDI" pad="6"/>
 <contactref element="CN1" pad="P$5"/>
-<polygon width="0.4064" layer="16">
-<vertex x="0.0254" y="0"/>
+<polygon width="0.4064" layer="16" rank="3">
+<vertex x="0" y="0"/>
 <vertex x="53.8226" y="0"/>
 <vertex x="53.8226" y="53.8226"/>
 <vertex x="0" y="53.8226"/>
-<vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.4064" layer="1" rank="3">
 <vertex x="0" y="0"/>
@@ -1186,7 +1208,8 @@ The standard DRC for hackvana.com</description>
 <contactref element="CN1" pad="GND@4"/>
 <contactref element="R15" pad="2"/>
 <via x="13.716" y="32.004" extent="1-16" drill="0.6096" diameter="0.8128"/>
-<via x="9.017" y="47.371" extent="1-16" drill="0.6096" diameter="0.8128"/>
+<via x="11.43" y="45.466" extent="1-16" drill="0.6096" diameter="0.8128"/>
+<via x="4.191" y="16.002" extent="1-16" drill="0.6096" diameter="0.8128"/>
 </signal>
 <signal name="+12V">
 <contactref element="U2" pad="4"/>
@@ -1210,6 +1233,18 @@ The standard DRC for hackvana.com</description>
 <wire x1="49.276" y1="10.668" x2="49.276" y2="13.97" width="0.6096" layer="1"/>
 <wire x1="49.276" y1="13.97" x2="49.4664" y2="14.1604" width="0.6096" layer="1"/>
 <wire x1="49.4664" y1="14.1604" x2="49.4664" y2="22.98" width="0.6096" layer="1"/>
+<polygon width="0.4064" layer="16">
+<vertex x="49.784" y="29.21"/>
+<vertex x="46.99" y="29.21"/>
+<vertex x="46.99" y="17.272"/>
+<vertex x="49.784" y="20.066"/>
+</polygon>
+<via x="49.403" y="21.59" extent="1-16" drill="0.6"/>
+<via x="48.641" y="22.86" extent="1-16" drill="0.6"/>
+<via x="49.403" y="24.13" extent="1-16" drill="0.6"/>
+<via x="48.641" y="25.4" extent="1-16" drill="0.6"/>
+<via x="48.641" y="20.32" extent="1-16" drill="0.6"/>
+<wire x1="48.641" y1="22.86" x2="49.0572" y2="22.5708" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R5" pad="1"/>

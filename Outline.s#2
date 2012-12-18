@@ -2752,7 +2752,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C8" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+5" library="supply1" deviceset="+15V" device=""/>
-<part name="R1" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R1" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="DRV1" library="1dah" deviceset="PT4115" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -2761,7 +2761,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C10" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D1" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+4" library="supply1" deviceset="+15V" device=""/>
-<part name="R8" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R8" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="DRV2" library="1dah" deviceset="PT4115" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -2770,7 +2770,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C12" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D2" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+6" library="supply1" deviceset="+15V" device=""/>
-<part name="R9" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R9" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="J1" library="TechIsCool" deviceset="AMP_RJ45" device="" value="RJHSE5080"/>
 <part name="IC2" library="maxim" deviceset="MAX34*" device="SA" technology="68C" value="ST1480ACDR"/>
 <part name="P+7" library="supply1" deviceset="+15V" device=""/>
