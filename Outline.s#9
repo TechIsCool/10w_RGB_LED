@@ -2752,7 +2752,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C8" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+5" library="supply1" deviceset="+15V" device=""/>
-<part name="R1" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R1" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="DRV1" library="1dah" deviceset="PT4115" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -2761,7 +2761,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C10" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D1" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+4" library="supply1" deviceset="+15V" device=""/>
-<part name="R8" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R8" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="DRV2" library="1dah" deviceset="PT4115" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -2770,7 +2770,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C12" library="SparkFun" deviceset="CAP_POL" device="C" value="10uF"/>
 <part name="SC_D2" library="TechIsCool" deviceset="SCHOTTYKY" device="" value="1PS74SB23"/>
 <part name="P+6" library="supply1" deviceset="+15V" device=""/>
-<part name="R9" library="nonolith" deviceset="RESISTOR" device="0805" value="300 mOhm"/>
+<part name="R9" library="nonolith" deviceset="RESISTOR" device="0805" value="300m Ohm"/>
 <part name="J1" library="TechIsCool" deviceset="AMP_RJ45" device="" value="RJHSE5080"/>
 <part name="IC2" library="maxim" deviceset="MAX34*" device="SA" technology="68C" value="ST1480ACDR"/>
 <part name="P+7" library="supply1" deviceset="+15V" device=""/>
@@ -3441,13 +3441,6 @@ DIN A4, landscape with extra doc field</description>
 <label x="15.748" y="76.708" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RX/TX_DATA_N" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC3/OC0D/TXD0"/>
-<wire x1="29.718" y1="73.914" x2="15.748" y2="73.914" width="0.1524" layer="91"/>
-<label x="15.748" y="74.168" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="FAN_PWM" class="0">
 <segment>
 <wire x1="112.014" y1="172.974" x2="100.584" y2="172.974" width="0.1524" layer="91"/>
@@ -3517,9 +3510,9 @@ DIN A4, landscape with extra doc field</description>
 <label x="21.082" y="104.648" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="DI"/>
-<wire x1="122.174" y1="72.39" x2="122.174" y2="87.122" width="0.1524" layer="91"/>
-<label x="121.666" y="75.184" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC2" gate="G$1" pin="DE"/>
+<wire x1="127.254" y1="72.39" x2="127.254" y2="86.614" width="0.1524" layer="91"/>
+<label x="126.746" y="72.136" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -3646,9 +3639,14 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="DE"/>
-<wire x1="127.254" y1="72.39" x2="127.254" y2="86.614" width="0.1524" layer="91"/>
-<label x="126.746" y="72.136" size="1.778" layer="95" rot="R90"/>
+<pinref part="IC2" gate="G$1" pin="DI"/>
+<wire x1="122.174" y1="72.39" x2="122.174" y2="86.106" width="0.1524" layer="91"/>
+<label x="121.666" y="75.438" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC3/OC0D/TXD0"/>
+<wire x1="29.718" y1="73.914" x2="15.748" y2="73.914" width="0.1524" layer="91"/>
+<label x="15.748" y="74.168" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

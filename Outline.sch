@@ -1750,6 +1750,20 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="-0.25" y1="5.96" x2="-0.25" y2="5.98" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="5.98" x2="-0.26" y2="-0.24" width="0.127" layer="21"/>
 </package>
+<package name="NSR05F20">
+<smd name="P$1" x="0" y="0" dx="0.47" dy="0.6" layer="1"/>
+<smd name="P$2" x="0.9" y="0" dx="0.6" dy="0.6" layer="1"/>
+<wire x1="-0.43" y1="0.5" x2="-0.2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.5" x2="1.4" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.5" x2="-0.2" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.5" x2="-0.43" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.43" y1="-0.5" x2="-0.43" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.5" x2="-0.2" y2="0.37" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.5" x2="-0.2" y2="-0.37" width="0.127" layer="21"/>
+<text x="-0.635" y="0.635" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.016" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 <package name="SOT-457">
 <smd name="P$1" x="0.1" y="0.3" dx="0.6" dy="0.5" layer="1" rot="R90"/>
 <smd name="P$2" x="1.05" y="0.3" dx="0.6" dy="0.5" layer="1" rot="R90"/>
@@ -1948,6 +1962,22 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="SCHOTTKY_2">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="SCHOTTKY">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -2199,6 +2229,22 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCHOTTKY_2">
+<gates>
+<gate name="G$1" symbol="SCHOTTKY_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NSR05F20">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2744,6 +2790,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C15" library="SparkFun" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="U$1" library="TechIsCool" deviceset="DMG1012T" device=""/>
 <part name="R6" library="nonolith" deviceset="RESISTOR" device="0603" value="1k Ohm"/>
+<part name="SC_D3" library="TechIsCool" deviceset="SCHOTTKY_2" device="" value="1PS74SB23"/>
 </parts>
 <sheets>
 <sheet>
@@ -2819,8 +2866,8 @@ DIN A4, landscape with extra doc field</description>
 <instance part="+3V5" gate="G$1" x="139.954" y="34.036" rot="R180"/>
 <instance part="CN1" gate="G$1" x="116.078" y="119.38" rot="R270"/>
 <instance part="GND21" gate="1" x="110.998" y="106.68"/>
-<instance part="JP1" gate="G$1" x="193.04" y="66.04" rot="MR180"/>
-<instance part="P+8" gate="1" x="183.642" y="68.58" rot="MR270"/>
+<instance part="JP1" gate="G$1" x="193.04" y="50.8" rot="MR180"/>
+<instance part="P+8" gate="1" x="190.5" y="72.898" rot="MR0"/>
 <instance part="P+9" gate="1" x="121.158" y="90.424" rot="R180"/>
 <instance part="PDI" gate="G$1" x="14.986" y="86.868" rot="R90"/>
 <instance part="GND22" gate="1" x="9.906" y="109.728" rot="R180"/>
@@ -2855,6 +2902,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="C15" gate="G$1" x="219.456" y="85.852" rot="R180"/>
 <instance part="U$1" gate="G$1" x="111.506" y="160.02"/>
 <instance part="R6" gate="G$1" x="101.092" y="157.48"/>
+<instance part="SC_D3" gate="G$1" x="190.5" y="62.484" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3180,7 +3228,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="205.994" y1="83.82" x2="205.994" y2="78.232" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="78.232" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="78.232" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="225.806" y1="78.232" x2="224.028" y2="78.232" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -3340,7 +3388,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="187.96" y1="78.232" x2="185.166" y2="78.232" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="80.772" x2="193.04" y2="78.232" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="78.232" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="78.232" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <junction x="193.04" y="78.232"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="80.772" x2="187.96" y2="78.232" width="0.1524" layer="91"/>
@@ -3349,17 +3397,21 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="P+8" gate="1" pin="+5V"/>
-<wire x1="190.5" y1="68.58" x2="186.182" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="CN1" gate="G$1" pin="VBUS"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 <wire x1="121.158" y1="107.95" x2="121.158" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="121.158" y1="96.52" x2="121.158" y2="92.964" width="0.1524" layer="91"/>
 <junction x="121.158" y="96.52"/>
+</segment>
+<segment>
+<pinref part="SC_D3" gate="G$1" pin="A"/>
+<pinref part="SC_D3" gate="G$1" pin="A"/>
+<pinref part="SC_D3" gate="G$1" pin="A"/>
+<pinref part="SC_D3" gate="G$1" pin="A"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="190.5" y1="70.358" x2="190.5" y2="65.024" width="0.1524" layer="91"/>
+<junction x="190.5" y="65.024"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -3607,6 +3659,15 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="U$1" gate="G$1" pin="G"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="106.172" y1="157.48" x2="107.188" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="SC_D3" gate="G$1" pin="C"/>
+<pinref part="SC_D3" gate="G$1" pin="C"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="59.944" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<junction x="190.5" y="59.944"/>
 </segment>
 </net>
 </nets>
