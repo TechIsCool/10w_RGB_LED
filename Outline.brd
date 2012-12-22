@@ -961,7 +961,7 @@ The standard DRC for hackvana.com</description>
 <attribute name="NAME" x="50.8" y="2.286" size="0.8128" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="SC_D3" library="TechIsCool" package="NSR05F20" value="1PS74SB23" x="16.891" y="36.83" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.367" y="36.83" size="0.4064" layer="25" rot="R180"/>
+<attribute name="NAME" x="15.367" y="37.0078" size="0.4064" layer="25" rot="R180"/>
 </element>
 <element name="U$3" library="TechIsCool" package="10W_LED" value="10W_RGB_LED" x="27.0256" y="26.5684" smashed="yes">
 <attribute name="NAME" x="36.3336" y="32.3494" size="1.27" layer="25" font="vector"/>
@@ -1109,7 +1109,7 @@ The standard DRC for hackvana.com</description>
 <wire x1="2.286" y1="44.792" x2="2.286" y2="47.084" width="0.6096" layer="1"/>
 <wire x1="4.986" y1="49.53" x2="4.732" y2="49.116" width="0.6096" layer="1"/>
 <via x="2.54" y="47.244" extent="1-16" drill="0.6"/>
-<via x="5.08" y="47.244" extent="1-16" drill="0.6"/>
+<via x="4.953" y="47.117" extent="1-16" drill="0.6"/>
 <via x="7.366" y="47.244" extent="1-16" drill="0.6"/>
 <via x="7.366" y="51.816" extent="1-16" drill="0.6"/>
 <via x="4.953" y="51.816" extent="1-16" drill="0.6"/>
@@ -1132,7 +1132,7 @@ The standard DRC for hackvana.com</description>
 <wire x1="16.51" y1="41.402" x2="19.558" y2="44.45" width="0.4064" layer="1"/>
 <wire x1="19.558" y1="44.45" x2="19.558" y2="48.26" width="0.4064" layer="1"/>
 <wire x1="19.558" y1="48.26" x2="21.59" y2="50.292" width="0.4064" layer="1"/>
-<wire x1="5.08" y1="47.244" x2="4.826" y2="49.436" width="0.4064" layer="1"/>
+<wire x1="4.953" y1="47.117" x2="4.826" y2="49.436" width="0.4064" layer="1"/>
 <wire x1="4.826" y1="49.436" x2="4.986" y2="49.53" width="0.4064" layer="1"/>
 <wire x1="37.592" y1="50.292" x2="21.59" y2="50.292" width="0.8128" layer="16"/>
 <wire x1="21.59" y1="50.292" x2="7.112" y2="50.292" width="0.8128" layer="16"/>
@@ -1140,6 +1140,9 @@ The standard DRC for hackvana.com</description>
 <wire x1="11.176" y1="43.764" x2="13.196" y2="43.764" width="0.4064" layer="1"/>
 <wire x1="13.196" y1="43.764" x2="13.882" y2="44.45" width="0.4064" layer="1"/>
 <wire x1="36.811353125" y1="35.832646875" x2="36.811353125" y2="34.842046875" width="0.4064" layer="1"/>
+<via x="2.54" y="49.53" extent="1-16" drill="0.6"/>
+<via x="4.953" y="49.53" extent="1-16" drill="0.6"/>
+<via x="7.366" y="49.53" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
@@ -1219,8 +1222,6 @@ The standard DRC for hackvana.com</description>
 <contactref element="C15" pad="2"/>
 <contactref element="U$1" pad="P$S"/>
 <via x="48.26" y="8.128" extent="1-16" drill="0.6"/>
-<wire x1="25.654" y1="8.382" x2="25.654" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="25.654" y1="7.62" x2="26.67" y2="6.604" width="0.6096" layer="1"/>
 <via x="45.72" y="3.81" extent="1-16" drill="0.6"/>
 <wire x1="48.2821" y1="40.4558125" x2="48.26" y2="40.4337125" width="0.4064" layer="1"/>
 <wire x1="48.26" y1="40.4337125" x2="48.26" y2="38.1" width="0.4064" layer="1"/>
@@ -1231,6 +1232,8 @@ The standard DRC for hackvana.com</description>
 <wire x1="19.47084375" y1="41.695840625" x2="19.812" y2="42.036996875" width="0.4064" layer="1"/>
 <wire x1="19.47084375" y1="41.695840625" x2="19.939003125" y2="42.164" width="0.4064" layer="16"/>
 <wire x1="19.939003125" y1="42.164" x2="21.082" y2="42.164" width="0.4064" layer="16"/>
+<contactref element="J1" pad="P$4"/>
+<contactref element="J1" pad="P$3"/>
 </signal>
 <signal name="+12V">
 <contactref element="J2" pad="3"/>
@@ -1528,7 +1531,8 @@ The standard DRC for hackvana.com</description>
 <wire x1="15.991" y1="36.841" x2="15.991" y2="36.83" width="0.6096" layer="1"/>
 <wire x1="14.732" y1="38.1" x2="14.732" y2="39.243" width="0.6096" layer="1"/>
 <wire x1="14.732" y1="39.243" x2="15.113" y2="39.624" width="0.6096" layer="1"/>
-<wire x1="42.8752" y1="31.4198" x2="42.291" y2="31.916" width="0" layer="19" extent="1-16"/>
+<wire x1="42.291" y1="31.916" x2="42.7872" y2="31.4198" width="0.6096" layer="1"/>
+<wire x1="42.7872" y1="31.4198" x2="44.0182" y2="31.4198" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="PDI" pad="5"/>
