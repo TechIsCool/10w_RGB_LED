@@ -22,30 +22,30 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -58,45 +58,45 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -107,7 +107,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -450,40 +450,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
 </package>
-<package name="10W_RGB_LED">
-<description>10W RGB Led from Satisled | http://www.satisled.com/10w-9w-rgb-led-emitter-3w-for-each-color_p236.html</description>
-<wire x1="-7.65" y1="4.5" x2="-7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="4.5" x2="7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-7.65" y1="4.5" x2="7.64" y2="4.5" width="0.127" layer="21" curve="-118.072487"/>
-<wire x1="-7.65" y1="-4.5" x2="7.65" y2="-4.5" width="0.127" layer="21" curve="118.072487"/>
-<wire x1="-9.3" y1="4.5" x2="-9.3" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.64" y1="4.5" x2="7.65" y2="4.5" width="0.127" layer="21"/>
-<wire x1="9.3" y1="4.5" x2="9.3" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="-4.5" x2="7.64" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="11.15" x2="1.5" y2="11.15" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="11.15" x2="-7.65" y2="4.5" width="0.127" layer="21" curve="92.000271"/>
-<wire x1="1.5" y1="11.15" x2="7.64" y2="4.5" width="0.127" layer="21" curve="-92.000271"/>
-<wire x1="-7.65" y1="-4.5" x2="-1.5" y2="-11.15" width="0.127" layer="21" curve="93.00013"/>
-<wire x1="7.64" y1="-4.5" x2="1.5" y2="-11.15" width="0.127" layer="21" curve="-92.000271"/>
-<wire x1="-1.5" y1="-11.15" x2="1.5" y2="-11.15" width="0.127" layer="21"/>
-<wire x1="-9.3" y1="4.5" x2="-7.65" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-9.3" y1="-4.5" x2="-7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="4.5" x2="9.3" y2="4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="-4.5" x2="9.3" y2="-4.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="6.9" width="0.127" layer="21"/>
-<circle x="0" y="9" radius="1" width="0.127" layer="21"/>
-<circle x="0" y="-9" radius="1" width="0.127" layer="21"/>
-<smd name="R$1" x="-13" y="3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="G$1" x="-13" y="0" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="B$1" x="-13" y="-3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="R$2" x="13" y="3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="G$2" x="13" y="0" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="B$2" x="13" y="-3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<text x="9.5" y="5.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="9.5" y="-6.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="9.07" y="-2.625" size="1.27" layer="25" rot="R90">Anode</text>
-<text x="-9.145" y="3.275" size="1.27" layer="25" rot="R270">Cathode</text>
-</package>
 <package name="RJHSE5080">
 <text x="-0.508" y="1.905" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="18.034" y="1.905" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
@@ -589,6 +555,39 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="1" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
 <wire x1="-1" y1="0" x2="-1" y2="1" width="0.127" layer="21"/>
 </package>
+<package name="10W_LED">
+<circle x="-0.192" y="0.281" radius="6.9" width="0.127" layer="21"/>
+<circle x="-0.192" y="9.281" radius="1" width="0.127" layer="21"/>
+<circle x="-0.192" y="-8.719" radius="1" width="0.127" layer="21"/>
+<wire x1="-7.842" y1="4.781" x2="-7.842" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="4.781" x2="7.458" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="-7.842" y1="4.781" x2="7.448" y2="4.781" width="0.127" layer="21" curve="-118.072487"/>
+<wire x1="-7.842" y1="-4.219" x2="7.458" y2="-4.219" width="0.127" layer="21" curve="118.072487"/>
+<wire x1="-10" y1="4.781" x2="-10" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.448" y1="4.781" x2="7.458" y2="4.781" width="0.127" layer="21"/>
+<wire x1="9.616" y1="4.781" x2="9.616" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="-4.219" x2="7.448" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="-1.692" y1="11.431" x2="1.308" y2="11.431" width="0.127" layer="21"/>
+<wire x1="-1.692" y1="11.431" x2="-7.842" y2="4.781" width="0.127" layer="21" curve="92.000271"/>
+<wire x1="1.308" y1="11.431" x2="7.448" y2="4.781" width="0.127" layer="21" curve="-92.000271"/>
+<wire x1="-7.842" y1="-4.219" x2="-1.692" y2="-10.869" width="0.127" layer="21" curve="93.00013"/>
+<wire x1="7.448" y1="-4.219" x2="1.308" y2="-10.869" width="0.127" layer="21" curve="-92.000271"/>
+<wire x1="-1.692" y1="-10.869" x2="1.308" y2="-10.869" width="0.127" layer="21"/>
+<wire x1="-10" y1="4.781" x2="-7.842" y2="4.781" width="0.127" layer="21"/>
+<wire x1="-10" y1="-4.219" x2="-7.842" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="4.781" x2="9.616" y2="4.781" width="0.127" layer="21"/>
+<wire x1="7.458" y1="-4.219" x2="9.616" y2="-4.219" width="0.127" layer="21"/>
+<smd name="B$C" x="-13.446" y="-2.719" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="B$A" x="13.062" y="-2.719" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="G$C" x="-13.446" y="0.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="G$A" x="13.062" y="0.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="R$C" x="-13.446" y="3.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="R$A" x="13.062" y="3.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<text x="9.308" y="5.781" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="9.308" y="-6.219" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="9.386" y="-1.328" size="0.8128" layer="25" rot="R90">Anode</text>
+<text x="-9.845" y="2.286" size="0.8128" layer="25" rot="R270">Cathode</text>
+</package>
 </packages>
 </library>
 <library name="maxim">
@@ -661,7 +660,7 @@ The standard DRC for hackvana.com</description>
 <param name="mdPadVia" value="8mil"/>
 <param name="mdViaVia" value="8mil"/>
 <param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
@@ -817,11 +816,11 @@ The standard DRC for hackvana.com</description>
 <attribute name="NAME" x="38.7278875" y="44.015178125" size="0.7" layer="51" ratio="5" rot="R315"/>
 <attribute name="NAME" x="30.406821875" y="43.2998875" size="0.8128" layer="21" ratio="5" rot="R45"/>
 </element>
-<element name="R2" library="nonolith" package="0603" value="15 Ohms" x="16.764" y="45.974" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.129" y="43.434" size="0.8128" layer="25" ratio="10"/>
+<element name="R2" library="nonolith" package="0603" value="15 Ohms" x="16.002" y="46.736" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.653" y="46.355" size="0.8128" layer="25" ratio="10"/>
 </element>
-<element name="R3" library="nonolith" package="0603" value="9.09 Ohms" x="14.732" y="45.974" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.097" y="43.434" size="0.8128" layer="25" ratio="10"/>
+<element name="R3" library="nonolith" package="0603" value="9.09 Ohms" x="14.732" y="44.45" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.383" y="44.069" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="R4" library="nonolith" package="0603" value="102 Ohms" x="45.1358" y="12.827" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.847" y="11.0998" size="0.8128" layer="25" ratio="10" rot="R180"/>
@@ -841,8 +840,8 @@ The standard DRC for hackvana.com</description>
 <element name="C4" library="SparkFun" package="1210" value="10uF" x="15.5702" y="50.292" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.107" y="49.8522" size="0.8128" layer="25"/>
 </element>
-<element name="C5" library="SparkFun" package="1210" value="10uF" x="11.43" y="42.164" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.916" y="41.902" size="0.8128" layer="25"/>
+<element name="C5" library="SparkFun" package="1210" value="10uF" x="11.176" y="42.164" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.662" y="41.775" size="0.8128" layer="25"/>
 </element>
 <element name="U1" library="SparkFun" package="V-REG_DPACK" value="NCP1117DTAG @ 3.3v" x="7.366" y="49.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.921" y="46.355" size="0.8128" layer="25" rot="R180"/>
@@ -850,8 +849,8 @@ The standard DRC for hackvana.com</description>
 <element name="U2" library="SparkFun" package="V-REG_DPACK" value="NCP1117DTAG @ 12v" x="49.4664" y="20.6" smashed="yes">
 <attribute name="NAME" x="45.948" y="24.3204" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="C6" library="SparkFun" package="0603-CAP" value=".1uF" x="37.234596875" y="35.00300625" smashed="yes" rot="R315">
-<attribute name="NAME" x="34.73179375" y="36.8054375" size="0.8128" layer="25" rot="R315"/>
+<element name="C6" library="SparkFun" package="0603-CAP" value=".1uF" x="37.412396875" y="34.24100625" smashed="yes" rot="R315">
+<attribute name="NAME" x="34.90959375" y="36.0434375" size="0.8128" layer="25" rot="R315"/>
 </element>
 <element name="C7" library="SparkFun" package="0603-CAP" value=".1uF" x="47.4321" y="40.4558125" smashed="yes">
 <attribute name="NAME" x="49.110178125" y="40.065784375" size="0.8128" layer="25"/>
@@ -930,10 +929,6 @@ The standard DRC for hackvana.com</description>
 <element name="C14" library="SparkFun" package="0603-CAP" value=".1uF" x="43.467365625" y="50.51263125" smashed="yes" rot="R135">
 <attribute name="NAME" x="45.208165625" y="51.377196875" size="0.8128" layer="25" rot="R135"/>
 </element>
-<element name="U$6" library="TechIsCool" package="10W_RGB_LED" value="10W_RGB_LED" x="26.924" y="26.924" locked="yes" smashed="yes">
-<attribute name="NAME" x="25.248" y="24.042" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="20.676" y="26.266" size="1.27" layer="27" font="vector"/>
-</element>
 <element name="U$2" library="TechIsCool" package="TOP-92-INLINE" value="DS18B20" x="17.9442" y="40.1692" smashed="yes" rot="MR315">
 <attribute name="VALUE" x="17.6131625" y="43.884109375" size="0.8128" layer="26" font="vector" ratio="10" rot="MR315"/>
 </element>
@@ -943,11 +938,11 @@ The standard DRC for hackvana.com</description>
 <element name="J2" library="TechIsCool" package="47053-1000" value="J2" x="39.116" y="6.604" smashed="yes">
 <attribute name="NAME" x="37.465" y="10.356" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="R14" library="nonolith" package="0603" value="11.8k" x="41.783" y="32.766" smashed="yes" rot="R90">
-<attribute name="NAME" x="42.6212" y="33.4518" size="0.762" layer="25" ratio="10"/>
+<element name="R14" library="nonolith" package="0603" value="11.8k" x="42.291" y="32.766" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.1292" y="33.4518" size="0.762" layer="25" ratio="10"/>
 </element>
-<element name="R15" library="nonolith" package="0603" value="10k" x="39.624" y="32.766" smashed="yes" rot="R270">
-<attribute name="NAME" x="40.005" y="34.417" size="0.762" layer="25" ratio="10" rot="R90"/>
+<element name="R15" library="nonolith" package="0603" value="10k" x="40.1828" y="32.766" smashed="yes" rot="R270">
+<attribute name="NAME" x="40.5638" y="34.417" size="0.762" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="C9" library="SparkFun" package="0603-CAP" value=".1uF" x="2.286" y="43.942" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.524" y="41.529" size="0.8128" layer="25"/>
@@ -967,6 +962,10 @@ The standard DRC for hackvana.com</description>
 </element>
 <element name="SC_D3" library="TechIsCool" package="NSR05F20" value="1PS74SB23" x="16.891" y="36.83" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.367" y="36.83" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="U$3" library="TechIsCool" package="10W_LED" value="10W_RGB_LED" x="27.0256" y="26.5684" smashed="yes">
+<attribute name="NAME" x="36.3336" y="32.3494" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="20.5856" y="26.9534" size="1.27" layer="27" font="vector"/>
 </element>
 </elements>
 <signals>
@@ -1048,12 +1047,12 @@ The standard DRC for hackvana.com</description>
 <contactref element="C13" pad="1"/>
 <wire x1="51.65" y1="9.144" x2="51.65" y2="11.826" width="0.8128" layer="1"/>
 <wire x1="51.65" y1="11.826" x2="51.0784" y2="12.3976" width="0.8128" layer="1"/>
-<wire x1="31.242" y1="10.414" x2="40.132" y2="1.524" width="0.8128" layer="1"/>
-<wire x1="40.132" y1="1.524" x2="50.8" y2="1.524" width="0.8128" layer="1"/>
+<wire x1="40.386" y1="1.524" x2="50.8" y2="1.524" width="0.8128" layer="1"/>
 <wire x1="50.8" y1="1.524" x2="51.816" y2="2.54" width="0.8128" layer="1"/>
 <wire x1="51.816" y1="2.54" x2="51.816" y2="8.978" width="0.8128" layer="1"/>
 <wire x1="51.816" y1="8.978" x2="51.65" y2="9.144" width="0.8128" layer="1"/>
-<wire x1="24.638" y1="10.414" x2="31.242" y2="10.414" width="0.8128" layer="1"/>
+<wire x1="24.638" y1="10.414" x2="31.496" y2="10.414" width="0.8128" layer="1"/>
+<wire x1="31.496" y1="10.414" x2="40.386" y2="1.524" width="0.8128" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U1" pad="4"/>
@@ -1063,7 +1062,7 @@ The standard DRC for hackvana.com</description>
 <contactref element="PDI" pad="2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R12" pad="2"/>
-<wire x1="10.084" y1="43.764" x2="11.43" y2="43.764" width="0.6096" layer="1"/>
+<wire x1="10.084" y1="43.764" x2="11.176" y2="43.764" width="0.6096" layer="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="31.6738" y="43.9928"/>
 <vertex x="38.735" y="36.957"/>
@@ -1096,8 +1095,7 @@ The standard DRC for hackvana.com</description>
 <contactref element="R13" pad="2"/>
 <wire x1="35.79339375" y1="38.817940625" x2="35.052" y2="38.076546875" width="0.4064" layer="1"/>
 <wire x1="35.052" y1="38.076546875" x2="35.052" y2="37.592" width="0.4064" layer="1"/>
-<wire x1="35.052" y1="37.592" x2="36.633553125" y2="36.010446875" width="0.4064" layer="1"/>
-<wire x1="36.633553125" y1="36.010446875" x2="36.633553125" y2="35.604046875" width="0.4064" layer="1"/>
+<wire x1="35.052" y1="37.592" x2="36.811353125" y2="35.832646875" width="0.4064" layer="1"/>
 <wire x1="44.49080625" y1="41.64636875" x2="45.6813625" y2="40.4558125" width="0.4064" layer="1"/>
 <wire x1="45.6813625" y1="40.4558125" x2="46.5821" y2="40.4558125" width="0.4064" layer="1"/>
 <polygon width="0.4064" layer="16">
@@ -1123,8 +1121,6 @@ The standard DRC for hackvana.com</description>
 <wire x1="49.53" y1="41.402" x2="49.95" y2="40.982" width="0.4064" layer="1"/>
 <wire x1="49.95" y1="40.982" x2="49.95" y2="40.38599375" width="0.4064" layer="1"/>
 <wire x1="37.592" y1="50.292" x2="38.608" y2="49.276" width="0.8128" layer="16"/>
-<wire x1="14.732" y1="45.124" x2="13.372" y2="43.764" width="0.6096" layer="1"/>
-<wire x1="13.372" y1="43.764" x2="11.43" y2="43.764" width="0.6096" layer="1"/>
 <wire x1="16.51" y1="38.734996875" x2="16.417559375" y2="38.64255625" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="50.292" x2="22.5044" y2="50.292" width="0.4064" layer="1"/>
 <wire x1="22.5044" y1="50.292" x2="22.733" y2="50.0634" width="0.4064" layer="1"/>
@@ -1141,14 +1137,18 @@ The standard DRC for hackvana.com</description>
 <wire x1="37.592" y1="50.292" x2="21.59" y2="50.292" width="0.8128" layer="16"/>
 <wire x1="21.59" y1="50.292" x2="7.112" y2="50.292" width="0.8128" layer="16"/>
 <wire x1="7.112" y1="50.292" x2="7.366" y2="51.816" width="0.8128" layer="16"/>
+<wire x1="11.176" y1="43.764" x2="13.196" y2="43.764" width="0.4064" layer="1"/>
+<wire x1="13.196" y1="43.764" x2="13.882" y2="44.45" width="0.4064" layer="1"/>
+<wire x1="36.811353125" y1="35.832646875" x2="36.811353125" y2="34.842046875" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
 <contactref element="U1" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="16.764" y1="46.824" x2="14.732" y2="46.824" width="0.6096" layer="1"/>
-<wire x1="14.732" y1="46.824" x2="12.338" y2="46.824" width="0.6096" layer="1"/>
-<wire x1="12.338" y1="46.824" x2="12.166" y2="47.25" width="0.6096" layer="1"/>
+<wire x1="12.166" y1="47.25" x2="12.68" y2="46.736" width="0.4064" layer="1"/>
+<wire x1="12.68" y1="46.736" x2="15.152" y2="46.736" width="0.4064" layer="1"/>
+<wire x1="15.582" y1="44.45" x2="15.152" y2="44.88" width="0.4064" layer="1"/>
+<wire x1="15.152" y1="44.88" x2="15.152" y2="46.736" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R2" pad="1"/>
@@ -1211,7 +1211,7 @@ The standard DRC for hackvana.com</description>
 <contactref element="CN1" pad="GND@4"/>
 <contactref element="R15" pad="2"/>
 <via x="13.716" y="32.004" extent="1-16" drill="0.6" diameter="0.8128"/>
-<via x="11.43" y="45.466" extent="1-16" drill="0.6" diameter="0.8128"/>
+<via x="12.192" y="49.022" extent="1-16" drill="0.6" diameter="0.8128"/>
 <via x="5.461" y="12.192" extent="1-16" drill="0.6" diameter="0.8128"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C11" pad="2"/>
@@ -1226,7 +1226,6 @@ The standard DRC for hackvana.com</description>
 <wire x1="48.26" y1="40.4337125" x2="48.26" y2="38.1" width="0.4064" layer="1"/>
 <wire x1="48.26" y1="38.1" x2="48.2574" y2="38.0974" width="0.4064" layer="1"/>
 <wire x1="48.2574" y1="38.0974" x2="46.3148" y2="38.0974" width="0.4064" layer="1"/>
-<wire x1="39.624" y1="31.916" x2="38.354" y2="33.186" width="0.4064" layer="1"/>
 <wire x1="38.354" y1="33.186" x2="38.354" y2="33.274" width="0.4064" layer="1"/>
 <via x="40.513" y="35.433" extent="1-16" drill="0.6" diameter="0.8128"/>
 <wire x1="19.47084375" y1="41.695840625" x2="19.812" y2="42.036996875" width="0.4064" layer="1"/>
@@ -1463,8 +1462,6 @@ The standard DRC for hackvana.com</description>
 <signal name="USB+">
 <contactref element="IC1" pad="27"/>
 <contactref element="CN1" pad="P$3"/>
-<wire x1="46.3398" y1="33.0724" x2="43.8912" y2="33.0708" width="0.4064" layer="1"/>
-<wire x1="43.688" y1="33.274" x2="43.8912" y2="33.0708" width="0.4064" layer="1"/>
 <wire x1="43.688" y1="36.83" x2="43.688" y2="37.084" width="0.4064" layer="1"/>
 <wire x1="43.688" y1="37.084" x2="43.942" y2="37.338" width="0.4064" layer="1"/>
 <wire x1="43.942" y1="37.338" x2="43.942" y2="37.592" width="0.4064" layer="1"/>
@@ -1474,22 +1471,24 @@ The standard DRC for hackvana.com</description>
 <wire x1="43.942" y1="36.322" x2="43.688" y2="36.068" width="0.4064" layer="1"/>
 <wire x1="43.688" y1="36.068" x2="43.688" y2="35.814" width="0.4064" layer="1"/>
 <wire x1="43.688" y1="35.814" x2="43.942" y2="35.56" width="0.4064" layer="1"/>
-<wire x1="43.942" y1="35.56" x2="43.942" y2="35.306" width="0.4064" layer="1"/>
-<wire x1="43.942" y1="35.306" x2="43.688" y2="35.052" width="0.4064" layer="1"/>
-<wire x1="43.688" y1="35.052" x2="43.688" y2="33.274" width="0.4064" layer="1"/>
 <wire x1="43.942" y1="37.592" x2="42.228065625" y2="39.305934375" width="0.4064" layer="1"/>
+<wire x1="46.3398" y1="33.0724" x2="44.9056" y2="33.0724" width="0.4064" layer="1"/>
+<wire x1="44.9056" y1="33.0724" x2="44.704" y2="33.274" width="0.4064" layer="1"/>
+<wire x1="44.704" y1="33.274" x2="44.704" y2="34.29" width="0.4064" layer="1"/>
+<wire x1="43.942" y1="35.56" x2="43.942" y2="35.052" width="0.4064" layer="1"/>
+<wire x1="43.942" y1="35.052" x2="44.704" y2="34.29" width="0.4064" layer="1"/>
 </signal>
 <signal name="USB-">
 <contactref element="IC1" pad="26"/>
 <contactref element="CN1" pad="P$2"/>
 <wire x1="41.662378125" y1="38.817940625" x2="41.700059375" y2="38.817940625" width="0.4064" layer="1"/>
-<wire x1="42.926" y1="37.55431875" x2="42.926" y2="33.02" width="0.4064" layer="1"/>
 <wire x1="42.926" y1="37.55431875" x2="41.662378125" y2="38.817940625" width="0.4064" layer="1"/>
-<wire x1="42.926" y1="33.02" x2="43.5466" y2="32.3994" width="0.4064" layer="1"/>
-<wire x1="43.5466" y1="32.3994" x2="44.8166" y2="32.3994" width="0.4064" layer="1"/>
-<wire x1="44.8166" y1="32.3994" x2="44.958" y2="32.258" width="0.4064" layer="1"/>
-<wire x1="44.958" y1="32.258" x2="46.3254" y2="32.258" width="0.4064" layer="1"/>
+<wire x1="44.45" y1="32.258" x2="46.3254" y2="32.258" width="0.4064" layer="1"/>
 <wire x1="46.3254" y1="32.258" x2="46.3398" y2="32.2724" width="0.4064" layer="1"/>
+<wire x1="42.926" y1="37.55431875" x2="42.926" y2="35.052" width="0.4064" layer="1"/>
+<wire x1="42.926" y1="35.052" x2="43.942" y2="34.036" width="0.4064" layer="1"/>
+<wire x1="43.942" y1="34.036" x2="43.942" y2="32.766" width="0.4064" layer="1"/>
+<wire x1="43.942" y1="32.766" x2="44.45" y2="32.258" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U1" pad="3"/>
@@ -1505,15 +1504,13 @@ The standard DRC for hackvana.com</description>
 <wire x1="16.51" y1="51.892" x2="15.5702" y2="51.892" width="0.8128" layer="1"/>
 <wire x1="18.542" y1="49.86" x2="16.51" y2="51.892" width="0.8128" layer="1"/>
 <wire x1="18.542" y1="44.704" x2="18.542" y2="49.86" width="0.8128" layer="1"/>
-<wire x1="13.716" y1="40.386" x2="13.716" y2="34.544" width="0.8128" layer="1"/>
-<wire x1="13.716" y1="40.386" x2="17.018" y2="43.688" width="0.8128" layer="1"/>
-<wire x1="17.018" y1="43.688" x2="17.526" y2="43.688" width="0.8128" layer="1"/>
-<wire x1="17.526" y1="43.688" x2="18.542" y2="44.704" width="0.8128" layer="1"/>
+<wire x1="18.542" y1="44.704" x2="13.589" y2="39.751" width="0.8128" layer="1"/>
+<wire x1="13.589" y1="39.751" x2="13.589" y2="34.671" width="0.8128" layer="1"/>
+<wire x1="13.589" y1="34.671" x2="13.716" y2="34.544" width="0.8128" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="CN1" pad="P$1"/>
 <contactref element="R14" pad="1"/>
-<wire x1="41.783" y1="31.916" x2="41.65585" y2="31.7382" width="0.4064" layer="1"/>
 <contactref element="SC_D3" pad="P$2"/>
 <contactref element="SC_D3" pad="P$2"/>
 <contactref element="SC_D3" pad="P$2"/>
@@ -1521,17 +1518,17 @@ The standard DRC for hackvana.com</description>
 <wire x1="18.288" y1="43.18" x2="31.115" y2="43.18" width="0.6096" layer="16"/>
 <via x="44.0182" y="31.4198" extent="1-16" drill="0.6"/>
 <wire x1="31.115" y1="43.18" x2="42.8752" y2="31.4198" width="0.6096" layer="16"/>
-<via x="15.113" y="40.005" extent="1-16" drill="0.6"/>
-<wire x1="14.986" y1="39.878" x2="14.986" y2="37.592" width="0.6096" layer="1"/>
-<wire x1="14.986" y1="37.592" x2="15.748" y2="36.83" width="0.6096" layer="1"/>
-<wire x1="15.748" y1="36.83" x2="15.991" y2="36.83" width="0.6096" layer="1"/>
-<wire x1="15.113" y1="40.005" x2="18.288" y2="43.18" width="0.6096" layer="16"/>
-<wire x1="14.986" y1="39.878" x2="15.113" y2="40.005" width="0.6096" layer="1"/>
+<wire x1="15.621" y1="40.259" x2="18.288" y2="43.18" width="0.6096" layer="16"/>
 <wire x1="42.8752" y1="31.4198" x2="44.0182" y2="31.4198" width="0.6096" layer="16"/>
 <wire x1="46.3398" y1="31.4724" x2="46.2872" y2="31.4198" width="0.6096" layer="1"/>
 <wire x1="46.2872" y1="31.4198" x2="44.0182" y2="31.4198" width="0.6096" layer="1"/>
-<wire x1="41.783" y1="31.916" x2="42.2792" y2="31.4198" width="0.6096" layer="1"/>
-<wire x1="42.2792" y1="31.4198" x2="44.0182" y2="31.4198" width="0.6096" layer="1"/>
+<wire x1="15.621" y1="40.259" x2="15.113" y2="39.624" width="0.6096" layer="16"/>
+<via x="15.113" y="39.624" extent="1-16" drill="0.6"/>
+<wire x1="14.732" y1="38.1" x2="15.991" y2="36.841" width="0.6096" layer="1"/>
+<wire x1="15.991" y1="36.841" x2="15.991" y2="36.83" width="0.6096" layer="1"/>
+<wire x1="14.732" y1="38.1" x2="14.732" y2="39.243" width="0.6096" layer="1"/>
+<wire x1="14.732" y1="39.243" x2="15.113" y2="39.624" width="0.6096" layer="1"/>
+<wire x1="42.8752" y1="31.4198" x2="42.291" y2="31.916" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="PDI" pad="5"/>
@@ -1574,16 +1571,12 @@ The standard DRC for hackvana.com</description>
 </signal>
 <signal name="FAN_SWITCH">
 <contactref element="IC1" pad="15"/>
-<via x="33.274" y="10.16" extent="1-16" drill="0.6"/>
-<wire x1="33.274" y1="10.16" x2="33.274" y2="9.652" width="0.4064" layer="1"/>
-<wire x1="33.274" y1="9.652" x2="40.64" y2="2.286" width="0.4064" layer="1"/>
+<via x="33.782" y="10.16" extent="1-16" drill="0.6"/>
 <contactref element="R6" pad="1"/>
-<wire x1="40.64" y1="2.286" x2="49.11" y2="2.286" width="0.4064" layer="1"/>
+<wire x1="40.894" y1="2.286" x2="49.11" y2="2.286" width="0.4064" layer="1"/>
 <wire x1="49.11" y1="2.286" x2="50.038" y2="3.214" width="0.4064" layer="1"/>
 <wire x1="46.228" y1="28.448" x2="46.228" y2="20.828" width="0.4064" layer="16"/>
 <wire x1="46.228" y1="20.828" x2="40.64" y2="15.24" width="0.4064" layer="16"/>
-<wire x1="39.116" y1="15.24" x2="34.036" y2="10.16" width="0.4064" layer="16"/>
-<wire x1="34.036" y1="10.16" x2="33.274" y2="10.16" width="0.4064" layer="16"/>
 <wire x1="44.958" y1="37.084" x2="38.1" y2="43.942" width="0.4064" layer="16"/>
 <wire x1="38.1" y1="43.942" x2="37.592" y2="43.942" width="0.4064" layer="16"/>
 <via x="37.592" y="43.942" extent="1-16" drill="0.6"/>
@@ -1591,7 +1584,11 @@ The standard DRC for hackvana.com</description>
 <wire x1="36.391965625" y1="43.942" x2="33.53065" y2="41.080684375" width="0.4064" layer="1"/>
 <wire x1="46.228" y1="28.448" x2="44.958" y2="29.718" width="0.4064" layer="16"/>
 <wire x1="44.958" y1="29.718" x2="44.958" y2="37.084" width="0.4064" layer="16"/>
-<wire x1="40.64" y1="15.24" x2="39.116" y2="15.24" width="0.4064" layer="16"/>
+<wire x1="40.64" y1="15.24" x2="39.37" y2="15.24" width="0.4064" layer="16"/>
+<wire x1="40.894" y1="2.286" x2="33.782" y2="9.398" width="0.4064" layer="1"/>
+<wire x1="39.37" y1="15.24" x2="34.29" y2="10.16" width="0.4064" layer="16"/>
+<wire x1="33.782" y1="9.398" x2="33.782" y2="10.16" width="0.4064" layer="1"/>
+<wire x1="34.29" y1="10.16" x2="33.782" y2="10.16" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$25">
 <contactref element="R10" pad="2"/>
@@ -1644,7 +1641,6 @@ The standard DRC for hackvana.com</description>
 <wire x1="47.498" y1="49.38736875" x2="48.914765625" y2="50.804134375" width="0.4064" layer="1"/>
 </signal>
 <signal name="RED_A">
-<contactref element="U$6" pad="R$2"/>
 <contactref element="DRV0" pad="4"/>
 <contactref element="R1" pad="2"/>
 <wire x1="8.612" y1="38.312" x2="8.612" y2="36.544" width="0.6096" layer="1"/>
@@ -1653,21 +1649,19 @@ The standard DRC for hackvana.com</description>
 <wire x1="8.612" y1="38.312" x2="8.316" y2="38.608" width="0.6096" layer="1"/>
 <wire x1="8.612" y1="38.312" x2="9.332" y2="37.592" width="0.6096" layer="1"/>
 <wire x1="9.332" y1="37.592" x2="12.446" y2="37.592" width="0.6096" layer="1"/>
-<wire x1="39.878" y1="29.97" x2="39.924" y2="29.924" width="0.6096" layer="1"/>
 <via x="37.846" y="32.004" extent="1-16" drill="0.6"/>
 <wire x1="37.846" y1="32.004" x2="37.846" y2="31.242" width="0.6096" layer="1"/>
-<wire x1="37.846" y1="31.242" x2="39.116" y2="29.972" width="0.6096" layer="1"/>
-<wire x1="39.116" y1="29.972" x2="39.876" y2="29.972" width="0.6096" layer="1"/>
-<wire x1="39.876" y1="29.972" x2="39.924" y2="29.924" width="0.6096" layer="1"/>
 <wire x1="21.082" y1="41.148" x2="32.004" y2="41.148" width="0.6096" layer="16"/>
 <wire x1="37.846" y1="35.306" x2="37.846" y2="32.004" width="0.6096" layer="16"/>
 <wire x1="32.004" y1="41.148" x2="37.846" y2="35.306" width="0.6096" layer="16"/>
 <wire x1="21.082" y1="41.148" x2="17.018" y2="37.084" width="0.6096" layer="16"/>
 <wire x1="17.018" y1="37.084" x2="12.954" y2="37.084" width="0.6096" layer="16"/>
 <wire x1="12.954" y1="37.084" x2="12.446" y2="37.592" width="0.6096" layer="16"/>
+<contactref element="U$3" pad="R$A"/>
+<wire x1="37.846" y1="31.242" x2="39.137" y2="29.951" width="0.6096" layer="1"/>
+<wire x1="39.137" y1="29.951" x2="40.0876" y2="29.8494" width="0.6096" layer="1"/>
 </signal>
 <signal name="GREEN_A">
-<contactref element="U$6" pad="G$2"/>
 <contactref element="DRV1" pad="4"/>
 <contactref element="R8" pad="2"/>
 <wire x1="2.86" y1="8.382" x2="2.31" y2="8.932" width="0.6096" layer="1"/>
@@ -1678,24 +1672,23 @@ The standard DRC for hackvana.com</description>
 <via x="44.704" y="25.654" extent="1-16" drill="0.6" diameter="0.8128"/>
 <wire x1="44.704" y1="23.876" x2="44.704" y2="25.654" width="0.6096" layer="16"/>
 <wire x1="44.704" y1="25.654" x2="43.434" y2="26.924" width="0.6096" layer="1"/>
-<wire x1="43.434" y1="26.924" x2="39.924" y2="26.924" width="0.6096" layer="1"/>
 <wire x1="44.704" y1="23.876" x2="31.496" y2="10.668" width="0.6096" layer="16"/>
 <wire x1="31.496" y1="10.668" x2="14.224" y2="10.668" width="0.6096" layer="16"/>
 <wire x1="14.224" y1="10.668" x2="9.144" y2="5.588" width="0.6096" layer="16"/>
 <wire x1="9.144" y1="5.588" x2="2.794" y2="5.588" width="0.6096" layer="16"/>
+<contactref element="U$3" pad="G$A"/>
+<wire x1="43.434" y1="26.924" x2="39.8098" y2="26.924" width="0.6096" layer="1"/>
+<wire x1="39.8098" y1="26.924" x2="40.0876" y2="26.8494" width="0.6096" layer="1"/>
 </signal>
 <signal name="BLUE_A">
-<contactref element="U$6" pad="B$2"/>
 <contactref element="DRV2" pad="4"/>
 <contactref element="R9" pad="2"/>
 <wire x1="11.242" y1="8.382" x2="10.946" y2="8.678" width="0.6096" layer="1" curve="-90"/>
 <wire x1="10.946" y1="8.678" x2="10.946" y2="9.619803125" width="0.6096" layer="1"/>
 <wire x1="10.946" y1="9.619803125" x2="10.946" y2="10.446" width="0.6096" layer="1"/>
 <via x="9.144" y="8.89" extent="1-16" drill="0.6" diameter="0.8128"/>
-<wire x1="39.924" y1="23.668" x2="39.924" y2="23.924" width="0.6096" layer="1"/>
 <via x="39.116" y="22.098" extent="1-16" drill="0.6" diameter="0.8128"/>
 <wire x1="39.116" y1="22.098" x2="39.924" y2="22.906" width="0.6096" layer="1"/>
-<wire x1="39.924" y1="22.906" x2="39.924" y2="23.924" width="0.6096" layer="1"/>
 <wire x1="10.946" y1="9.619803125" x2="10.216196875" y2="8.89" width="0.6096" layer="1"/>
 <wire x1="10.216196875" y1="8.89" x2="9.144" y2="8.89" width="0.6096" layer="1"/>
 <wire x1="12.446" y1="12.192" x2="9.144" y2="8.89" width="0.6096" layer="16"/>
@@ -1705,30 +1698,35 @@ The standard DRC for hackvana.com</description>
 <wire x1="39.116" y1="20.193" x2="31.18939375" y2="12.26639375" width="0.6096" layer="16"/>
 <wire x1="31.18939375" y1="12.26639375" x2="31.009790625" y2="12.192" width="0.6096" layer="16" curve="-44.999295"/>
 <wire x1="31.009790625" y1="12.192" x2="12.446" y2="12.192" width="0.6096" layer="16"/>
+<contactref element="U$3" pad="B$A"/>
+<wire x1="39.924" y1="22.906" x2="39.924" y2="23.8098" width="0.6096" layer="1"/>
+<wire x1="39.924" y1="23.8098" x2="40.0876" y2="23.8494" width="0.6096" layer="1"/>
 </signal>
 <signal name="RED_C">
-<contactref element="U$6" pad="R$1"/>
 <contactref element="IND1" pad="P$1"/>
 <wire x1="4.784" y1="26.013" x2="6.455" y2="26.013" width="0.6096" layer="1"/>
 <wire x1="6.455" y1="26.013" x2="10.414" y2="29.972" width="0.6096" layer="1"/>
-<wire x1="10.414" y1="29.972" x2="13.876" y2="29.972" width="0.6096" layer="1"/>
-<wire x1="13.876" y1="29.972" x2="13.924" y2="29.924" width="0.6096" layer="1"/>
+<wire x1="10.414" y1="29.972" x2="13.7828" y2="29.972" width="0.6096" layer="1"/>
+<contactref element="U$3" pad="R$C"/>
+<wire x1="13.5796" y1="29.8494" x2="13.7828" y2="29.972" width="0.6096" layer="1"/>
+<wire x1="13.7828" y1="29.972" x2="13.876" y2="29.972" width="0.6096" layer="1"/>
 </signal>
 <signal name="GREEN_C">
-<contactref element="U$6" pad="G$1"/>
 <contactref element="IND2" pad="P$1"/>
-<wire x1="13.924" y1="26.924" x2="10.414" y2="26.924" width="0.6096" layer="1"/>
-<wire x1="6.858" y1="22.606" x2="4.973" y2="22.606" width="0.6096" layer="1"/>
+<wire x1="7.112" y1="22.606" x2="4.973" y2="22.606" width="0.6096" layer="1"/>
 <wire x1="4.973" y1="22.606" x2="4.868" y2="22.501" width="0.6096" layer="1"/>
-<wire x1="6.858" y1="22.606" x2="9.144" y2="24.892" width="0.6096" layer="1"/>
-<wire x1="9.144" y1="24.892" x2="9.144" y2="25.654" width="0.6096" layer="1"/>
-<wire x1="9.144" y1="25.654" x2="10.414" y2="26.924" width="0.6096" layer="1"/>
+<contactref element="U$3" pad="G$C"/>
+<wire x1="13.5796" y1="26.8494" x2="10.0854" y2="26.8494" width="0.6096" layer="1"/>
+<wire x1="10.0854" y1="26.8494" x2="9.017" y2="25.781" width="0.6096" layer="1"/>
+<wire x1="9.017" y1="25.781" x2="9.017" y2="24.511" width="0.6096" layer="1"/>
+<wire x1="9.017" y1="24.511" x2="7.112" y2="22.606" width="0.6096" layer="1"/>
 </signal>
 <signal name="BLUE_C">
-<contactref element="U$6" pad="B$1"/>
 <contactref element="IND3" pad="P$1"/>
 <wire x1="11.98" y1="20.977" x2="13.924" y2="22.413" width="0.6096" layer="1"/>
-<wire x1="13.924" y1="22.413" x2="13.924" y2="23.924" width="0.6096" layer="1"/>
+<contactref element="U$3" pad="B$C"/>
+<wire x1="13.924" y1="22.413" x2="13.924" y2="23.951" width="0.6096" layer="1"/>
+<wire x1="13.924" y1="23.951" x2="13.5796" y2="23.8494" width="0.6096" layer="1"/>
 </signal>
 <signal name="ONE_WIRE_TEMP">
 <contactref element="U$2" pad="2"/>
@@ -1747,10 +1745,11 @@ The standard DRC for hackvana.com</description>
 <contactref element="R14" pad="2"/>
 <contactref element="R15" pad="1"/>
 <contactref element="IC1" pad="25"/>
-<wire x1="41.783" y1="33.616" x2="41.744" y2="33.6042" width="0.4064" layer="1"/>
-<wire x1="39.624" y1="33.616" x2="41.783" y2="33.616" width="0.4064" layer="1"/>
-<wire x1="41.783" y1="33.616" x2="41.783" y2="37.56595" width="0.4064" layer="1"/>
-<wire x1="41.783" y1="37.56595" x2="41.09669375" y2="38.25225625" width="0.4064" layer="1"/>
+<wire x1="42.291" y1="33.616" x2="41.744" y2="33.6042" width="0.4064" layer="1"/>
+<wire x1="42.291" y1="37.05795" x2="41.09669375" y2="38.25225625" width="0.4064" layer="1"/>
+<wire x1="42.291" y1="37.05795" x2="42.291" y2="33.616" width="0.4064" layer="1"/>
+<wire x1="41.744" y1="33.6042" x2="41.7322" y2="33.616" width="0.4064" layer="1"/>
+<wire x1="41.7322" y1="33.616" x2="40.1828" y2="33.616" width="0.4064" layer="1"/>
 </signal>
 <signal name="TX">
 <contactref element="IC2" pad="4"/>

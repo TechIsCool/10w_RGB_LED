@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1808,40 +1808,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
 </package>
-<package name="10W_RGB_LED">
-<description>10W RGB Led from Satisled | http://www.satisled.com/10w-9w-rgb-led-emitter-3w-for-each-color_p236.html</description>
-<wire x1="-7.65" y1="4.5" x2="-7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="4.5" x2="7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-7.65" y1="4.5" x2="7.64" y2="4.5" width="0.127" layer="21" curve="-118.072487"/>
-<wire x1="-7.65" y1="-4.5" x2="7.65" y2="-4.5" width="0.127" layer="21" curve="118.072487"/>
-<wire x1="-9.3" y1="4.5" x2="-9.3" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.64" y1="4.5" x2="7.65" y2="4.5" width="0.127" layer="21"/>
-<wire x1="9.3" y1="4.5" x2="9.3" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="-4.5" x2="7.64" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="11.15" x2="1.5" y2="11.15" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="11.15" x2="-7.65" y2="4.5" width="0.127" layer="21" curve="92.000271"/>
-<wire x1="1.5" y1="11.15" x2="7.64" y2="4.5" width="0.127" layer="21" curve="-92.000271"/>
-<wire x1="-7.65" y1="-4.5" x2="-1.5" y2="-11.15" width="0.127" layer="21" curve="93.00013"/>
-<wire x1="7.64" y1="-4.5" x2="1.5" y2="-11.15" width="0.127" layer="21" curve="-92.000271"/>
-<wire x1="-1.5" y1="-11.15" x2="1.5" y2="-11.15" width="0.127" layer="21"/>
-<wire x1="-9.3" y1="4.5" x2="-7.65" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-9.3" y1="-4.5" x2="-7.65" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="4.5" x2="9.3" y2="4.5" width="0.127" layer="21"/>
-<wire x1="7.65" y1="-4.5" x2="9.3" y2="-4.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="6.9" width="0.127" layer="21"/>
-<circle x="0" y="9" radius="1" width="0.127" layer="21"/>
-<circle x="0" y="-9" radius="1" width="0.127" layer="21"/>
-<smd name="R$1" x="-13" y="3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="G$1" x="-13" y="0" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="B$1" x="-13" y="-3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="R$2" x="13" y="3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="G$2" x="13" y="0" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<smd name="B$2" x="13" y="-3" dx="7.3" dy="1.85" layer="1" rot="R180"/>
-<text x="9.5" y="5.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="9.5" y="-6.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="9.07" y="-2.625" size="1.27" layer="25" rot="R90">Anode</text>
-<text x="-9.145" y="3.275" size="1.27" layer="25" rot="R270">Cathode</text>
-</package>
 <package name="RJHSE5080">
 <text x="-0.508" y="1.905" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="18.034" y="1.905" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
@@ -1947,6 +1913,39 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="1" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
 <wire x1="-1" y1="0" x2="-1" y2="1" width="0.127" layer="21"/>
 </package>
+<package name="10W_LED">
+<circle x="-0.192" y="0.281" radius="6.9" width="0.127" layer="21"/>
+<circle x="-0.192" y="9.281" radius="1" width="0.127" layer="21"/>
+<circle x="-0.192" y="-8.719" radius="1" width="0.127" layer="21"/>
+<wire x1="-7.842" y1="4.781" x2="-7.842" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="4.781" x2="7.458" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="-7.842" y1="4.781" x2="7.448" y2="4.781" width="0.127" layer="21" curve="-118.072487"/>
+<wire x1="-7.842" y1="-4.219" x2="7.458" y2="-4.219" width="0.127" layer="21" curve="118.072487"/>
+<wire x1="-10" y1="4.781" x2="-10" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.448" y1="4.781" x2="7.458" y2="4.781" width="0.127" layer="21"/>
+<wire x1="9.616" y1="4.781" x2="9.616" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="-4.219" x2="7.448" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="-1.692" y1="11.431" x2="1.308" y2="11.431" width="0.127" layer="21"/>
+<wire x1="-1.692" y1="11.431" x2="-7.842" y2="4.781" width="0.127" layer="21" curve="92.000271"/>
+<wire x1="1.308" y1="11.431" x2="7.448" y2="4.781" width="0.127" layer="21" curve="-92.000271"/>
+<wire x1="-7.842" y1="-4.219" x2="-1.692" y2="-10.869" width="0.127" layer="21" curve="93.00013"/>
+<wire x1="7.448" y1="-4.219" x2="1.308" y2="-10.869" width="0.127" layer="21" curve="-92.000271"/>
+<wire x1="-1.692" y1="-10.869" x2="1.308" y2="-10.869" width="0.127" layer="21"/>
+<wire x1="-10" y1="4.781" x2="-7.842" y2="4.781" width="0.127" layer="21"/>
+<wire x1="-10" y1="-4.219" x2="-7.842" y2="-4.219" width="0.127" layer="21"/>
+<wire x1="7.458" y1="4.781" x2="9.616" y2="4.781" width="0.127" layer="21"/>
+<wire x1="7.458" y1="-4.219" x2="9.616" y2="-4.219" width="0.127" layer="21"/>
+<smd name="B$C" x="-13.446" y="-2.719" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="B$A" x="13.062" y="-2.719" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="G$C" x="-13.446" y="0.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="G$A" x="13.062" y="0.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="R$C" x="-13.446" y="3.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<smd name="R$A" x="13.062" y="3.281" dx="6.792" dy="1.85" layer="1" rot="R180"/>
+<text x="9.308" y="5.781" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="9.308" y="-6.219" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="9.386" y="-1.328" size="0.8128" layer="25" rot="R90">Anode</text>
+<text x="-9.845" y="2.286" size="0.8128" layer="25" rot="R270">Cathode</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -2011,39 +2010,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pin name="GND" x="19.05" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="N/C" x="19.05" y="7.62" length="middle" direction="out" rot="R180"/>
 <pin name="VCC" x="19.05" y="10.16" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="10W_RGB_LED">
-<wire x1="-6.35" y1="0" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="-1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-3.302" x2="0.762" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.302" x2="6.35" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.302" x2="-1.016" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.302" x2="-1.016" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-4.318" x2="-1.016" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.032" x2="0.762" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.302" x2="0.762" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-6.604" x2="0.762" y2="-6.604" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-6.604" x2="6.35" y2="-6.604" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-6.604" x2="-1.016" y2="-5.334" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-6.604" x2="-1.016" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-7.62" x2="-1.016" y2="-5.334" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-5.334" x2="0.762" y2="-6.604" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-6.604" x2="0.762" y2="-7.62" width="0.254" layer="94"/>
-<text x="1.27" y="0.508" size="1.27" layer="94">Red</text>
-<text x="1.27" y="-2.794" size="1.27" layer="94">Green</text>
-<text x="1.27" y="-6.096" size="1.27" layer="94">Blue</text>
-<text x="-4.826" y="-9.906" size="1.778" layer="95">&gt;NAME</text>
-<pin name="R$1" x="6.35" y="0" visible="off" length="short" rot="R180"/>
-<pin name="R$2" x="-6.35" y="0" visible="off" length="short"/>
-<pin name="G$1" x="6.35" y="-3.302" visible="off" length="short" rot="R180"/>
-<pin name="G$2" x="-6.35" y="-3.302" visible="off" length="short"/>
-<pin name="B$1" x="6.35" y="-6.604" visible="off" length="short" rot="R180"/>
-<pin name="B$2" x="-6.35" y="-6.604" visible="off" length="short"/>
 </symbol>
 <symbol name="JACK_8">
 <wire x1="1.524" y1="8.128" x2="0" y2="8.128" width="0.254" layer="94"/>
@@ -2218,6 +2184,39 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <vertex x="0.127" y="0.508"/>
 </polygon>
 </symbol>
+<symbol name="RGB_LED">
+<wire x1="-7.112" y1="3.302" x2="0" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="5.588" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="-1.778" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="-1.778" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.286" x2="-1.778" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="0" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.778" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.778" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-1.016" x2="-1.778" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="-3.302" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="5.588" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="-1.778" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="-1.778" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-4.318" x2="-1.778" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="0" y2="-4.318" width="0.254" layer="94"/>
+<pin name="B$C" x="5.588" y="-3.302" visible="off" length="short" rot="R180"/>
+<pin name="B$A" x="-7.112" y="-3.302" visible="off" length="short"/>
+<pin name="G$C" x="5.588" y="0" visible="off" length="short" rot="R180"/>
+<pin name="G$A" x="-7.112" y="0" visible="off" length="short"/>
+<pin name="R$C" x="5.588" y="3.302" visible="off" length="short" rot="R180"/>
+<pin name="R$A" x="-7.112" y="3.302" visible="off" length="short"/>
+<text x="0.508" y="3.81" size="1.27" layer="94">Red</text>
+<text x="0.508" y="0.508" size="1.27" layer="94">Green</text>
+<text x="0.508" y="-2.794" size="1.27" layer="94">Blue</text>
+<text x="-5.588" y="-6.604" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="INDUCTOR" prefix="IND" uservalue="yes">
@@ -2285,26 +2284,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <connect gate="G$1" pin="PDI_CLK" pad="5"/>
 <connect gate="G$1" pin="PDI_D" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10W_RGB_LED">
-<gates>
-<gate name="G$1" symbol="10W_RGB_LED" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="10W_RGB_LED">
-<connects>
-<connect gate="G$1" pin="B$1" pad="B$1"/>
-<connect gate="G$1" pin="B$2" pad="B$2"/>
-<connect gate="G$1" pin="G$1" pad="G$1"/>
-<connect gate="G$1" pin="G$2" pad="G$2"/>
-<connect gate="G$1" pin="R$1" pad="R$1"/>
-<connect gate="G$1" pin="R$2" pad="R$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2422,6 +2401,26 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <connect gate="G$1" pin="D" pad="P$D"/>
 <connect gate="G$1" pin="G" pad="P$G"/>
 <connect gate="G$1" pin="S" pad="P$S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10W_RGB_LED">
+<gates>
+<gate name="1" symbol="RGB_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10W_LED">
+<connects>
+<connect gate="1" pin="B$A" pad="B$A"/>
+<connect gate="1" pin="B$C" pad="B$C"/>
+<connect gate="1" pin="G$A" pad="G$A"/>
+<connect gate="1" pin="G$C" pad="G$C"/>
+<connect gate="1" pin="R$A" pad="R$A"/>
+<connect gate="1" pin="R$C" pad="R$C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2773,7 +2772,6 @@ DIN A4, landscape with extra doc field</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="C14" library="SparkFun" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="U$6" library="TechIsCool" deviceset="10W_RGB_LED" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="TechIsCool" deviceset="DS18B20" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -2791,6 +2789,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="U$1" library="TechIsCool" deviceset="DMG1012T" device=""/>
 <part name="R6" library="nonolith" deviceset="RESISTOR" device="0603" value="1k Ohm"/>
 <part name="SC_D3" library="TechIsCool" deviceset="SCHOTTKY_2" device="" value="1PS74SB23"/>
+<part name="U$3" library="TechIsCool" deviceset="10W_RGB_LED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2882,7 +2881,6 @@ DIN A4, landscape with extra doc field</description>
 <instance part="C14" gate="G$1" x="98.298" y="76.454" rot="R90"/>
 <instance part="FRAME1" gate="G$1" x="0.254" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.814" y="0"/>
-<instance part="U$6" gate="G$1" x="34.798" y="171.45"/>
 <instance part="GND20" gate="1" x="122.174" y="23.114" rot="R90"/>
 <instance part="U$2" gate="G$1" x="26.162" y="21.336"/>
 <instance part="GND19" gate="1" x="13.462" y="21.336" rot="R270"/>
@@ -2903,6 +2901,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="U$1" gate="G$1" x="111.506" y="160.02"/>
 <instance part="R6" gate="G$1" x="101.092" y="157.48"/>
 <instance part="SC_D3" gate="G$1" x="190.5" y="62.484" rot="R270"/>
+<instance part="U$3" gate="1" x="35.56" y="168.148"/>
 </instances>
 <busses>
 </busses>
@@ -3523,9 +3522,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="RED_A" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="R$2"/>
 <wire x1="28.448" y1="171.45" x2="20.828" y2="171.45" width="0.1524" layer="91"/>
 <label x="19.558" y="171.704" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="R$A"/>
 </segment>
 <segment>
 <pinref part="DRV0" gate="G$1" pin="CSN"/>
@@ -3539,9 +3538,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="GREEN_A" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="G$2"/>
 <wire x1="28.448" y1="168.148" x2="20.828" y2="168.148" width="0.1524" layer="91"/>
 <label x="15.748" y="168.402" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="G$A"/>
 </segment>
 <segment>
 <pinref part="DRV1" gate="G$1" pin="CSN"/>
@@ -3555,9 +3554,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="BLUE_A" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="B$2"/>
 <wire x1="28.448" y1="164.846" x2="20.828" y2="164.846" width="0.1524" layer="91"/>
 <label x="18.034" y="165.1" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="B$A"/>
 </segment>
 <segment>
 <pinref part="DRV2" gate="G$1" pin="CSN"/>
@@ -3571,9 +3570,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="RED_C" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="R$1"/>
 <wire x1="41.148" y1="171.45" x2="49.276" y2="171.45" width="0.1524" layer="91"/>
 <label x="41.402" y="171.704" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="R$C"/>
 </segment>
 <segment>
 <pinref part="IND1" gate="G$1" pin="1"/>
@@ -3583,9 +3582,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="GREEN_C" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="G$1"/>
 <wire x1="41.148" y1="168.148" x2="49.276" y2="168.148" width="0.1524" layer="91"/>
 <label x="41.402" y="168.402" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="G$C"/>
 </segment>
 <segment>
 <pinref part="IND2" gate="G$1" pin="1"/>
@@ -3595,9 +3594,9 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="BLUE_C" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="B$1"/>
 <wire x1="41.148" y1="164.846" x2="49.276" y2="164.846" width="0.1524" layer="91"/>
 <label x="41.402" y="165.1" size="1.778" layer="95"/>
+<pinref part="U$3" gate="1" pin="B$C"/>
 </segment>
 <segment>
 <pinref part="IND3" gate="G$1" pin="1"/>
