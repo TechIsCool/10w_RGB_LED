@@ -1,0 +1,61 @@
+Partlist
+
+Exported from Outline.sch at 2/5/2013 7:22:18 PM
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device          Package         Library    Sheet
+
+C1       .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C2       10uF               CAP1210         1210            SparkFun   1
+C3       10uF               CAP1210         1210            SparkFun   1
+C4       10uF               CAP1210         1210            SparkFun   1
+C5       10uF               CAP1210         1210            SparkFun   1
+C6       .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C7       .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C8       10uF               CAP_POLC        PANASONIC_C     SparkFun   1
+C9       .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C10      10uF               CAP_POLC        PANASONIC_C     SparkFun   1
+C11      .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C12      10uF               CAP_POLC        PANASONIC_C     SparkFun   1
+C13      .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C14      .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+C15      .1uF               CAP0603-CAP     0603-CAP        SparkFun   1
+CN1      0675031020         USB_MINI_B      MOLEX_675031020 TechIsCool 1
+DRV0     PT4115             PT4115          SOT89-5         1dah       1
+DRV1     PT4115             PT4115          SOT89-5         1dah       1
+DRV2     PT4115             PT4115          SOT89-5         1dah       1
+IC1      ATXMEGA32A4U-AU    ATXMEGAXXA4U-AU TQFP-44         nonolith   1
+IC2      ST1480ACDR         MAX3468CSA      SO08            maxim      1
+IND1     68uH 760mA         INDUCTOR        CR54            TechIsCool 1
+IND2     68uH 760mA         INDUCTOR        CR54            TechIsCool 1
+IND3     68uH 760mA         INDUCTOR        CR54            TechIsCool 1
+J1       RJHSE5080          AMP_RJ45        RJHSE5080       TechIsCool 1
+J2       J2                 470531000       47053-1000      TechIsCool 1
+JP1      JUMPER_3           JUMPER_3        JP2E            TechIsCool 1
+PDI      AVR_PDI            AVR_PDI         AVR_PDI         TechIsCool 1
+R1       300m Ohm           RESISTOR0805    0805            nonolith   1
+R2       15 Ohms            RESISTOR0603    0603            nonolith   1
+R3       9.09 Ohms          RESISTOR0603    0603            nonolith   1
+R4       102 Ohms           RESISTOR0603    0603            nonolith   1
+R5       11.8 Ohms          RESISTOR0603    0603            nonolith   1
+R6       1k Ohm             RESISTOR0603    0603            nonolith   1
+R8       300m Ohm           RESISTOR0805    0805            nonolith   1
+R9       300 mOhm           RESISTOR0805    0805            nonolith   1
+R10      10k Ohm            RESISTOR0603    0603            nonolith   1
+R11      1k Ohm             RESISTOR0603    0603            nonolith   1
+R12      10k Ohm            RESISTOR0603    0603            nonolith   1
+R13      4.7k Ohm           RESISTOR0603    0603            nonolith   1
+R14      11.8k              RESISTOR0603    0603            nonolith   1
+R15      10k                RESISTOR0603    0603            nonolith   1
+SC_D     1PS74SB23          SCHOTTYKY       SOT-457         TechIsCool 1
+SC_D1    1PS74SB23          SCHOTTYKY       SOT-457         TechIsCool 1
+SC_D2    1PS74SB23          SCHOTTYKY       SOT-457         TechIsCool 1
+SC_D3    1PS74SB23          SCHOTTKY_2      NSR05F20        TechIsCool 1
+U$1      DMG1012T           DMG1012T        DMG1012T        TechIsCool 1
+U$2      DS18B20            DS18B20         TOP-92-INLINE   TechIsCool 1
+U$3      10W_RGB_LED        10W_RGB_LED     10W_LED         TechIsCool 1
+U1       NCP1117DTAG @ 3.3v V_REG_317DPACK  V-REG_DPACK     SparkFun   1
+U2       NCP1117DTAG @ 12v  V_REG_317DPACK  V-REG_DPACK     SparkFun   1

@@ -2700,10 +2700,10 @@ DIN A4, landscape with extra doc field</description>
 </classes>
 <parts>
 <part name="IC1" library="nonolith" deviceset="ATXMEGAXXA4U" device="-AU" value="ATXMEGA32A4U-AU"/>
-<part name="R2" library="nonolith" deviceset="RESISTOR" device="0603" value="15 Ohms"/>
-<part name="R3" library="nonolith" deviceset="RESISTOR" device="0603" value="9.09 Ohms"/>
-<part name="R4" library="nonolith" deviceset="RESISTOR" device="0603" value="102 Ohms"/>
-<part name="R5" library="nonolith" deviceset="RESISTOR" device="0603" value="11.8 Ohms"/>
+<part name="R2" library="nonolith" deviceset="RESISTOR" device="0603" value="412 Ohms"/>
+<part name="R3" library="nonolith" deviceset="RESISTOR" device="0603" value="255 Ohms"/>
+<part name="R4" library="nonolith" deviceset="RESISTOR" device="0603" value="2k Ohms"/>
+<part name="R5" library="nonolith" deviceset="RESISTOR" device="0603" value="237 Ohms"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="1210" value="10uF"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="1210" value="10uF"/>
@@ -2790,6 +2790,14 @@ DIN A4, landscape with extra doc field</description>
 <part name="R6" library="nonolith" deviceset="RESISTOR" device="0603" value="1k Ohm"/>
 <part name="SC_D3" library="TechIsCool" deviceset="SCHOTTKY_2" device="" value="1PS74SB23"/>
 <part name="U$3" library="TechIsCool" deviceset="10W_RGB_LED" device=""/>
+<part name="C16" library="SparkFun" deviceset="CAP" device="0603-CAP" value="68pF"/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="nonolith" deviceset="RESISTOR" device="0603" value="47k Ohm"/>
+<part name="R16" library="nonolith" deviceset="RESISTOR" device="0603" value="47k Ohm"/>
+<part name="R17" library="nonolith" deviceset="RESISTOR" device="0603" value="47k Ohm"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2808,8 +2816,14 @@ DIN A4, landscape with extra doc field</description>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="60.198" y="84.074"/>
-<instance part="R2" gate="G$1" x="177.546" y="62.992" rot="MR90"/>
-<instance part="R3" gate="G$1" x="168.91" y="73.152" rot="MR90"/>
+<instance part="R2" gate="G$1" x="177.546" y="62.992" smashed="yes" rot="MR90">
+<attribute name="NAME" x="176.022" y="60.452" size="1.27" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="176.022" y="64.643" size="1.27" layer="96" font="vector" rot="MR0"/>
+</instance>
+<instance part="R3" gate="G$1" x="168.91" y="73.152" smashed="yes" rot="MR90">
+<attribute name="NAME" x="167.386" y="70.612" size="1.27" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="167.386" y="74.803" size="1.27" layer="96" font="vector" rot="MR0"/>
+</instance>
 <instance part="R4" gate="G$1" x="219.456" y="60.706" rot="MR90"/>
 <instance part="R5" gate="G$1" x="219.456" y="73.152" rot="MR90"/>
 <instance part="C1" gate="G$1" x="98.298" y="68.834" rot="R90"/>
@@ -2817,7 +2831,10 @@ DIN A4, landscape with extra doc field</description>
 <instance part="C3" gate="G$1" x="224.028" y="85.852" rot="MR180"/>
 <instance part="C4" gate="G$1" x="193.04" y="85.852" rot="MR180"/>
 <instance part="C5" gate="G$1" x="168.91" y="86.106" rot="MR180"/>
-<instance part="U1" gate="G$1" x="177.546" y="78.232" rot="MR0"/>
+<instance part="U1" gate="G$1" x="177.546" y="78.232" smashed="yes" rot="MR0">
+<attribute name="NAME" x="175.006" y="70.612" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="181.61" y="76.2" size="0.6096" layer="96" rot="MR0"/>
+</instance>
 <instance part="U2" gate="G$1" x="233.426" y="78.232" rot="MR0"/>
 <instance part="+3V1" gate="G$1" x="151.384" y="78.232" rot="MR270"/>
 <instance part="P+1" gate="1" x="205.994" y="86.36" rot="MR0"/>
@@ -2859,9 +2876,12 @@ DIN A4, landscape with extra doc field</description>
 <instance part="SC_D2" gate="G$1" x="236.22" y="148.59" rot="R90"/>
 <instance part="P+6" gate="1" x="226.822" y="156.21" rot="R90"/>
 <instance part="R9" gate="G$1" x="248.92" y="161.29"/>
-<instance part="J1" gate="G$1" x="105.156" y="18.034" rot="R180"/>
+<instance part="J1" gate="G$1" x="105.156" y="18.034" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.236" y="7.874" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.188" y="31.496" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="IC2" gate="G$1" x="127.254" y="59.69" rot="R270"/>
-<instance part="P+7" gate="1" x="112.268" y="33.528"/>
+<instance part="P+7" gate="1" x="112.268" y="37.846"/>
 <instance part="+3V5" gate="G$1" x="139.954" y="34.036" rot="R180"/>
 <instance part="CN1" gate="G$1" x="116.078" y="119.38" rot="R270"/>
 <instance part="GND21" gate="1" x="110.998" y="106.68"/>
@@ -2869,7 +2889,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="P+8" gate="1" x="190.5" y="72.898" rot="MR0"/>
 <instance part="P+9" gate="1" x="121.158" y="90.424" rot="R180"/>
 <instance part="PDI" gate="G$1" x="14.986" y="86.868" rot="R90"/>
-<instance part="GND22" gate="1" x="9.906" y="109.728" rot="R180"/>
+<instance part="GND22" gate="1" x="9.906" y="110.744" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="4.826" y="109.728"/>
 <instance part="GND23" gate="1" x="112.268" y="149.098"/>
 <instance part="P+10" gate="1" x="85.852" y="167.894" rot="R90"/>
@@ -2902,6 +2922,14 @@ DIN A4, landscape with extra doc field</description>
 <instance part="R6" gate="G$1" x="101.092" y="157.48"/>
 <instance part="SC_D3" gate="G$1" x="190.5" y="62.484" rot="R270"/>
 <instance part="U$3" gate="1" x="35.56" y="168.148"/>
+<instance part="C16" gate="G$1" x="13.462" y="129.794" rot="R180"/>
+<instance part="GND6" gate="1" x="13.462" y="134.874" rot="R180"/>
+<instance part="R7" gate="G$1" x="164.592" y="106.934" rot="MR180"/>
+<instance part="R16" gate="G$1" x="207.01" y="106.934" rot="MR180"/>
+<instance part="R17" gate="G$1" x="248.92" y="106.934" rot="MR180"/>
+<instance part="GND7" gate="1" x="241.3" y="106.934" rot="R270"/>
+<instance part="GND25" gate="1" x="199.39" y="106.934" rot="R270"/>
+<instance part="GND26" gate="1" x="156.972" y="106.934" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -2978,7 +3006,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="J1" gate="G$1" pin="8"/>
 <pinref part="P+7" gate="1" pin="+15V"/>
 <wire x1="110.236" y1="28.194" x2="112.268" y2="28.194" width="0.1524" layer="91"/>
-<wire x1="112.268" y1="28.194" x2="112.268" y2="30.988" width="0.1524" layer="91"/>
+<wire x1="112.268" y1="28.194" x2="112.268" y2="35.306" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="7"/>
 <wire x1="110.236" y1="25.654" x2="112.268" y2="25.654" width="0.1524" layer="91"/>
 <wire x1="112.268" y1="25.654" x2="112.268" y2="28.194" width="0.1524" layer="91"/>
@@ -3183,7 +3211,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="PDI" gate="G$1" pin="GND"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="9.906" y1="105.918" x2="9.906" y2="107.188" width="0.1524" layer="91"/>
+<wire x1="9.906" y1="105.918" x2="9.906" y2="108.204" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="GND"/>
@@ -3222,6 +3250,22 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="U$1" gate="G$1" pin="S"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="112.268" y1="151.638" x2="112.268" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -3264,9 +3308,10 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="PWM0" class="0">
 <segment>
-<wire x1="169.672" y1="126.492" x2="169.672" y2="120.142" width="0.1524" layer="91"/>
+<wire x1="169.672" y1="126.492" x2="169.672" y2="106.934" width="0.1524" layer="91"/>
 <label x="169.164" y="118.618" size="1.778" layer="95" rot="R90"/>
 <pinref part="DRV0" gate="G$1" pin="DIM"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OC0A/PD0"/>
@@ -3332,8 +3377,9 @@ DIN A4, landscape with extra doc field</description>
 <net name="PWM1" class="0">
 <segment>
 <pinref part="DRV1" gate="G$1" pin="DIM"/>
-<wire x1="212.09" y1="126.746" x2="212.09" y2="120.396" width="0.1524" layer="91"/>
+<wire x1="212.09" y1="126.746" x2="212.09" y2="106.934" width="0.1524" layer="91"/>
 <label x="211.582" y="119.126" size="1.778" layer="95" rot="R90"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OC0B/XCK0/PD1"/>
@@ -3345,8 +3391,9 @@ DIN A4, landscape with extra doc field</description>
 <net name="PWM2" class="0">
 <segment>
 <pinref part="DRV2" gate="G$1" pin="DIM"/>
-<wire x1="254" y1="127" x2="254" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="254" y1="127" x2="254" y2="106.934" width="0.1524" layer="91"/>
 <label x="253.492" y="119.38" size="1.778" layer="95" rot="R90"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OC0C/RXD0/PD2"/>
@@ -3431,12 +3478,14 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="21.844" y1="124.714" x2="29.718" y2="124.714" width="0.1524" layer="91"/>
 <junction x="21.844" y="124.714"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<junction x="13.462" y="124.714"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RO"/>
-<wire x1="137.414" y1="89.154" x2="137.414" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="137.414" y1="83.82" x2="137.414" y2="72.39" width="0.1524" layer="91"/>
 <label x="136.906" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
@@ -3499,7 +3548,7 @@ DIN A4, landscape with extra doc field</description>
 <net name="RX_EN" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RE/"/>
-<wire x1="132.334" y1="72.39" x2="132.334" y2="83.312" width="0.1524" layer="91"/>
+<wire x1="132.334" y1="72.39" x2="132.334" y2="83.82" width="0.1524" layer="91"/>
 <label x="132.08" y="75.184" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
@@ -3516,7 +3565,7 @@ DIN A4, landscape with extra doc field</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="DE"/>
-<wire x1="127.254" y1="72.39" x2="127.254" y2="86.614" width="0.1524" layer="91"/>
+<wire x1="127.254" y1="72.39" x2="127.254" y2="83.82" width="0.1524" layer="91"/>
 <label x="126.746" y="72.136" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
@@ -3645,7 +3694,7 @@ DIN A4, landscape with extra doc field</description>
 <net name="TX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="DI"/>
-<wire x1="122.174" y1="72.39" x2="122.174" y2="86.106" width="0.1524" layer="91"/>
+<wire x1="122.174" y1="72.39" x2="122.174" y2="83.82" width="0.1524" layer="91"/>
 <label x="121.666" y="75.438" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
